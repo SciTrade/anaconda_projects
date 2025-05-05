@@ -1,0 +1,680 @@
+CODIGO DA TRANSACAO;DATA;TIPO;DESCRICAO;VALOR
+a3f6a810-70a7-44e8-8b79-edccb0e44675;01/11/2024;Pix recebido;Jaine Franco Alves;1000,00 
+611a25d5-fce3-45bc-b6fc-40edd23964c1;01/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,99 
+6e14815a-658f-4e84-8230-3094a3aa526e;01/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-35,68 
+70db756d-1dcd-4a1b-be15-dd855e59f5ae;01/11/2024;QR Code Pix enviado;Pix Marketplace;-38,30 
+4596a67d-5cc3-4200-b60c-7083443450a3;01/11/2024;Pix enviado;Jaine Franco Alves;-14,00 
+26b32c83-3659-456a-9921-f0c597096c5f;01/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-47,95 
+6622b4ee-f4f3-4408-8fab-5b36f5ccaecc;01/11/2024;Cartão da Conta;Bex.tickets              +442036679976gb;-151,90 
+53dd755b-3049-4747-99b1-70861da98744;01/11/2024;Pix enviado;Rubens Santana Gonçalves;-20,00 
+daac0c11-3684-40f3-b7da-cafa7f0d2d68;01/11/2024;Pix enviado;Jaine Franco Alves;-300,00 
+358951dd-fd63-4a62-badb-57cc6d045f09;01/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-12,48 
+645c3ce7-262e-42e2-902e-3cd5a2d3a418;01/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-4,20 
+226cfdc9-38f6-44f2-8067-7efe893b8959;02/11/2024;Pix enviado;Jamille Franco Alves;-30,00 
+5a46f58b-6e3a-4c43-9b19-e0aaad405351;02/11/2024;Pix recebido;Camila Botelho Ottoni;1020,00 
+4df70ecb-eaa1-4fc3-8fb1-c37aad7c6da9;02/11/2024;Pix enviado;Silvia Ferraz Lemos;-28,70 
+e12cc5b9-a6c9-43df-9843-e4030d6d2fee;02/11/2024;Pix enviado;Jaqueline Franco Alves;-180,00 
+ef4c3afc-434f-47fc-a154-1a6f15e7539b;02/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-19,89 
+a9f1804c-3c6c-4b87-95f2-e18bd1534c30;02/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-32,80 
+682c0646-b5a1-4f62-ba62-97df88bdb8e8;02/11/2024;Pix enviado;Jaine Franco Alves;-20,00 
+7d3ece3a-a0c4-494a-b6c5-18d1bf799531;02/11/2024;QR Code Pix enviado;P C Silva Mercearia;-166,49 
+f8f3c7c9-d148-40fc-a54c-81f654811a81;02/11/2024;QR Code Pix enviado;Comercio De Combustiveis Peniel Ltda;-35,31 
+ac555a83-eb9e-4173-b034-0d6fcab27bfd;02/11/2024;Pix recebido;Sanna Da Silva Lima;180,00 
+ad3ed02a-d339-4e99-9b7f-66d404bff0cd;02/11/2024;Pix enviado;Izildinha Aparecida Matos Brito         ;-2083,00 
+2b6b962f-9849-472d-8b12-10be77f499d8;02/11/2024;Pix enviado;Adalton Nascimento De Souza;-300,00 
+cf57dab9-a9cd-4eda-ae0a-96edc091cab3;02/11/2024;QR Code Pix enviado;Pix Marketplace;-77,27 
+a6a25bc8-b10d-4b82-8746-7d724b9c25f3;02/11/2024;QR Code Pix enviado;Pix Marketplace;-72,47 
+98284dad-9291-4543-8668-503224e8c276;02/11/2024;Vendas;Disponivel DEBITO VISA;263,55 
+3ca1c211-76ab-4de5-bb46-92a26424e941;02/11/2024;Pix recebido;Gisele Campos Santos Brito;280,00 
+e9e33391-a896-4637-b925-5c012b4981f1;02/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,99 
+7377da89-0795-4408-b5ea-0d75cea26f68;02/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-30,12 
+3ad1509a-e245-4e30-af4f-02a3964f82a7;02/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-47,87 
+c204f049-3330-4122-888d-07f3ff7b9a66;02/11/2024;QR Code Pix enviado;Lucas Rodrigues Silva;-25,80 
+9bbec08e-f2d8-4a3c-95e0-c061cd4be920;03/11/2024;QR Code Pix enviado;Lucas Maia Santos;-55,00 
+76476ca4-4c67-4dca-97a2-8fec839bbf2f;03/11/2024;QR Code Pix enviado;Rafael Portugal Borges 05109802440;-145,20 
+b9326548-7eb7-41ab-8e42-0ffd4f58d9ce;03/11/2024;Pix enviado;Estephane Goncalves Peres;-85,00 
+089c642e-08df-4253-ad7f-f5d193bf9c83;03/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+e86d6c8d-b339-4b4c-97f3-20063a1e0ad1;03/11/2024;QR Code Pix enviado;Suele Da Silva Franca;-18,00 
+d731e9c2-52f6-4658-8a72-f52c4d098f12;03/11/2024;Pix recebido;Rosangela Barreira Vasconcelos;320,00 
+08363dec-6336-409b-bcf8-ff90969463d2;03/11/2024;Pix recebido;Marcos Lopes Machado;15,00 
+94fdce87-b644-4c33-bad7-389114be0c59;03/11/2024;Pix recebido;Raquel Marques;115,00 
+ecbf938a-e6e9-4acd-8ae2-3bbdffdc2bed;03/11/2024;Estorno Cartão da Conta;Google Malwarebytes M    Sao Paulo    Br;124,99 
+ecbf938a-e6e9-4acd-8ae2-3bbdffdc2bed;03/11/2024;Cartão da Conta;Google Malwarebytes M    Sao Paulo    Br;-124,99 
+74063592-d724-4494-9104-ff5029b9db1a;03/11/2024;Cartão da Conta;Google Malwarebytes M    Sao Paulo    Br;-124,99 
+8360a996-a8a3-4fd0-9538-af30f40cef06;03/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-26,70 
+7b4d730f-542e-4569-a7ea-5bbe05c9596a;03/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-14,00 
+91835fa9-03a8-4774-95e3-e47455b06017;03/11/2024;Pix enviado;Andreia Paraguai Santos 08479826533;-23,40 
+ab61acd3-8fb1-4475-b913-73a0647b3889;04/11/2024;Pix enviado;Guilherme Guerra Silva;-38,00 
+ccab6952-6b7e-473d-a4de-e06c4cf74dc7;04/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-14,99 
+e1c14b85-1063-4102-8512-5708e28d6353;04/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-23,15 
+3bc96004-754b-4589-87a5-4848cfe0521a;04/11/2024;QR Code Pix enviado;Pix Marketplace;-172,90 
+d2a01236-acea-4f78-b48e-b8a9b83b18e7;04/11/2024;Vendas;Disponivel PIX;588,66 
+751d20ad-bd54-4fbc-bee4-cc3436abb17f;04/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-4,14 
+a56bb5da-0486-4d40-abe9-ec4be09ced2d;04/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-10,75 
+e243b358-9bff-4c07-8090-d11fa9866dd3;04/11/2024;Pix enviado;Tiago Rodrigues Da Silva Filho;-280,00 
+5bc961a5-9ecc-4803-a8c6-6c7f4bf63243;04/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-44,36 
+5ae42b46-8fde-4768-bf72-5d1095faf4ed;04/11/2024;QR Code Pix enviado;Cleidimar Teixeira Machado 78306345215;-260,00 
+7cdcf8e5-9ba1-41e5-b267-62de1ebf14d1;04/11/2024;QR Code Pix enviado;Drogaria Oliveira E Araujo Ltda;-36,00 
+b2614fd5-8b84-4520-8b62-a77061374751;04/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-12,50 
+bcfadf39-03a7-4ea7-a490-48751ffb4910;04/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-4,50 
+7ea774cf-0c37-444c-b537-dbe0da3801c3;04/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,99 
+a7abe418-624e-4527-a913-834703f40c71;04/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-7,00 
+a74482a4-4e51-442f-85c5-b1e98ca6ff6b;05/11/2024;Pix recebido;Morales Silva Dos Santos                ;150,00 
+6584a5c3-9dcd-41b0-8fbd-90e3ca10881c;05/11/2024;Recarga de celular;Vivo - (73) *****-8892;-25,00 
+0e2977bf-84ae-45e6-bbc9-60f01481154a;05/11/2024;Pix enviado;Albertina De Castro;-700,00 
+867a1acc-11bf-4a4b-952e-fd7822018227;05/11/2024;Recarga de celular;Vivo - (73) *****-3865;-25,00 
+f33d2ec5-b575-424a-b3fe-ea0dee1d4298;05/11/2024;QR Code Pix enviado;Cleidimar Teixeira Machado 78306345215;-280,00 
+2d415079-4529-4b8f-a12f-4fcf6ee99e60;05/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-21,40 
+a3f6b00e-1026-4b3e-9f10-c393c3a5d936;05/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-7,00 
+d05bb22f-f777-40d1-bb61-bb808a4a6a4e;05/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-13,00 
+3d4051ab-f47f-4104-9076-d8715a13db12;06/11/2024;Pix enviado;Jaine Franco Alves;-10,00 
+27b6dc92-16f1-48d3-86dc-4b3fd19b1881;06/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-7,00 
+7059c928-0460-4d70-9cad-9c33b071d539;06/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-24,63 
+efaadde8-ab8c-4851-887c-ecc92847c28e;07/11/2024;Pix recebido;Rolney Luiz Dos Santos;120,00 
+106cf9a9-9e72-4c21-89d3-5b5317c089cd;07/11/2024;QR Code Pix enviado;Auto Posto Skalla Derivados De Petroleo Ltda;-50,00 
+6c9b867a-0aa3-4761-8c46-4917ddfeb683;07/11/2024;QR Code Pix enviado;Mateus Supermercados Ltda;-5,48 
+4b1ec5cb-6355-4068-b048-228825ec8459;07/11/2024;QR Code Pix enviado;Mateus Supermercados Ltda;-6,39 
+2ce8c131-d117-4472-a04c-0f56a94bbd84;07/11/2024;QR Code Pix enviado;Mateus Supermercados Ltda;-692,34 
+f99d101c-cf86-4848-95b7-7e04a7d5ec20;07/11/2024;QR Code Pix enviado;Kleber Autopecas Ltda;-70,00 
+503b9eae-51ed-4e69-85f3-a498d8f460b2;07/11/2024;QR Code Pix enviado;Irmaos Mattar   Cia Ltda                         ;-89,06 
+8fbca973-21af-4de7-b7c4-187d1faef98c;07/11/2024;QR Code Pix enviado;Geisson De Jesus Santos;-20,00 
+fc5125c0-05a1-4c3a-935a-e4dbd0133085;07/11/2024;QR Code Pix enviado;Carlos Silva Lima                       ;-1500,00 
+b0a2a8db-643f-0bff-8e04-c77f24bc6162;07/11/2024;Rendimento da conta;Rendimento líquido sobre dinheiro em conta;0,24 
+8927def3-0700-4308-907f-93c38bc141fd;07/11/2024;Pix enviado;Jaine Franco Alves;-123,00 
+660f3b2e-ea70-4cf4-87ce-9c4dc76d26b9;07/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+cf9f442c-910a-45e5-bb2d-86343006e799;07/11/2024;Pix recebido;Ingride Silva Zimerer;520,00 
+fe8b3e1f-af39-4380-83d0-bd300d0b9609;07/11/2024;QR Code Pix enviado;P C Silva Mercearia;-3,95 
+a2f477c0-17f1-43fb-97ae-b91d8f236a88;07/11/2024;QR Code Pix enviado;Pix Marketplace;-38,19 
+eff9ffc1-cb44-427c-b688-e10d6c5f4857;07/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-20,55 
+4ada7d4c-e887-4f41-91c5-c5d379f494f9;07/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-8,95 
+cb876b12-90cf-4592-be18-74f1484060d2;07/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-7,00 
+fd99dc5c-f672-4e8d-8952-9bbf8a384a02;08/11/2024;Pix recebido;56.323.789 Irineu Cortez;170,00 
+8d2b1897-5df9-4d2b-afb8-9413425d9655;08/11/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-11,25 
+efffdfe9-553c-4ae8-83d9-545679ed1662;08/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-67,73 
+66487a15-f1a1-4b6f-9381-e510222ee41e;08/11/2024;Pix enviado;Nilson Zanon Goncalves;-2,50 
+426c2b29-0f68-491c-9bfa-988120f1cda2;08/11/2024;Pix enviado;Ronni Cleber Souza Rosa;-7,40 
+f2ea57d0-c4f0-4a3c-ad5a-e4c95e53bbf9;08/11/2024;Recarga de celular;Vivo - (73) *****-5006;-20,00 
+c0e1a91e-1da4-4d42-b5ed-5d5cafef781c;08/11/2024;QR Code Pix enviado;Mundo Das Racoes;-22,00 
+337ce53c-a190-4de0-aa84-d0f1d2324dc7;08/11/2024;Vendas;Disponivel DEBITO VISA;48,80 
+e8df7e6a-d898-4909-bd20-931711d70298;08/11/2024;Vendas;Disponivel DEBITO VISA;48,80 
+3be5b2c8-ca94-4c8b-ac9c-75eafd53a67d;08/11/2024;QR Code Pix enviado;Acacio De Souza Ramos;-18,61 
+c056d69b-1793-49cf-b29e-909065eef807;08/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-7,00 
+95fdd26e-3909-4376-8976-70a4bfd892c3;08/11/2024;Pix enviado;Edmagro;-17,19 
+ad1e6e0c-89cb-4c17-b725-6af13b912361;08/11/2024;Pix enviado;Edmagro;-9,38 
+aa327ffb-3203-0923-8127-4e62577cde85;09/11/2024;Rendimento da conta;Rendimento líquido sobre dinheiro em conta;5,22 
+ff4aba6d-38fe-4722-97cd-838337058e84;09/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-11,50 
+bb3294c6-581a-43f5-bcdc-31c59e9775e3;09/11/2024;Pix recebido;Jaine Franco Alves;50,00 
+0ceac384-90d9-4df8-af60-118ab881b0bb;09/11/2024;QR Code Pix enviado;Itl Fibra;-86,81 
+321b031d-5545-4acc-a99e-233ddbe5c6d2;09/11/2024;QR Code Pix enviado;Itl Fibra;-85,00 
+6031c905-7ad2-49ec-bf64-47763b28ba42;09/11/2024;Pix enviado;Ezequiel Simoes Macedo;-11,00 
+ee0f2f84-0a9e-4557-ad3d-5d23210ca068;09/11/2024;Pix enviado;Jovacy Francisco De Sousa Neto;-10,00 
+59a46f98-1532-4bda-b886-2fce7a84076c;09/11/2024;Pix enviado;Ezequiel Simoes Macedo;-11,00 
+380f7dab-ba4c-42a6-a0c8-0753b91c258a;09/11/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-10,00 
+ef62a92e-33f6-429b-80d9-95e7ffbf6c89;09/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-3,00 
+acaf3743-0827-47c1-ad4a-4d022e0788d8;09/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-9,28 
+2c34aa4f-9a65-48f7-8f2a-1b9e9e628ddc;09/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-5,60 
+67aee4b9-c6f4-49b6-8bb8-f147bbdba632;10/11/2024;QR Code Pix enviado;Posto Lider;-50,00 
+5963ce3f-f699-47ab-82a4-944bb3325bdc;10/11/2024;Vendas;Disponivel DEBITO MASTERCARD;156,18 
+924180b0-2107-4a9b-a7d8-778e86901002;10/11/2024;Pix recebido;Wanderson Gava Lenzi                    ;160,00 
+39f00842-d1e3-4f54-bc48-9b26ab687fca;10/11/2024;Pix recebido;Juliano Rosario Ferreira Silva;30,00 
+dbd6cd47-f7c3-4c6d-a4f6-e151e9d452d6;10/11/2024;QR Code Pix enviado;Neilton Goncalves Fernandes;-20,00 
+d72c8578-75e3-40e3-9ea3-dc7b3b3b1a90;10/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+b4d7cd3e-8368-4487-9b49-3ea3e47d0e7c;10/11/2024;QR Code Pix enviado;Acacio De Souza Ramos;-35,08 
+6caa16ef-a514-4300-9b88-61bd3b08b5ee;10/11/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-10,90 
+e83cdfda-cf10-46f0-8344-8d064d13fe47;10/11/2024;Pix enviado;Edmagro;-21,00 
+39c9caaf-b3c5-4733-99f1-10db6b5f33b9;11/11/2024;Cartão da Conta;Google Amazon Prime V    Sao Paulo    Br;-19,90 
+d20c3db5-284f-4eb2-b4ee-15d34b350c8f;11/11/2024;Pix enviado;Luciano Segundo Guerra Silva;-50,00 
+cb94111a-9a29-45b3-a073-2a887000ac40;11/11/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-5,75 
+0334fa36-b47a-4d5b-9d45-2d8d6d111768;11/11/2024;Pix enviado;Jamile Tarler Pereira;-50,00 
+79a5dc03-bcbd-4395-87b0-a654e59db024;11/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-23,50 
+a23ca0bd-a8b8-4114-8649-ff7604cb1403;11/11/2024;QR Code Pix enviado;Carlos Jose Rodrigues Silvano;-650,00 
+b9b8c6a9-f110-4c06-8ca9-e7dcde6a6901;11/11/2024;QR Code Pix enviado;Pix Marketplace;-97,96 
+f4986306-4d76-468a-b5fe-bc6091380b0d;11/11/2024;Vendas;Disponivel CREDITO VISA;229,46 
+74d642bb-8ee6-483d-b919-42cabbf99609;11/11/2024;Vendas;Disponivel CREDITO ELO;95,56 
+adf798c3-c607-42b4-8e80-4cdee403346b;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;229,46 
+54dbe588-7ff0-4081-9625-1bcb4f421c01;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;115,60 
+9a5cda0a-f0b0-4e56-b4b1-a22d7792637d;11/11/2024;Vendas;Disponivel CREDITO VISA;143,55 
+e61985c2-4d23-40ea-adb6-0155ad0f6590;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;143,48 
+497c6dd3-4937-478a-ba06-fb551bd6018b;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;95,90 
+c8de64f5-99ed-4d9d-88b2-ad75c62d1cd0;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;192,18 
+ec05e3a8-e457-44b2-9229-84836efbe87a;11/11/2024;Vendas;Disponivel CREDITO VISA;210,61 
+b7b99b0d-536e-4b3d-ae60-174bba1dcb8c;11/11/2024;Vendas;Disponivel CREDITO VISA;229,87 
+8c0badbb-c640-41e6-a7e1-8558bcd8245c;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;229,87 
+dfce4eb1-4f40-4470-ac86-a995480afe79;11/11/2024;Vendas;Disponivel CREDITO VISA;337,50 
+e38b7d32-8354-4a6a-bd93-b28f65f5ab9e;11/11/2024;Vendas;Disponivel CREDITO VISA;328,34 
+696de660-2d4c-4303-885e-11ba0ef16e30;11/11/2024;Vendas;Disponivel CREDITO VISA;163,08 
+3ab57147-a9b8-4672-9e8e-abacb06b0fb8;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;164,26 
+78df229b-7b33-4963-827c-986cae5ebb3a;11/11/2024;Vendas;Disponivel CREDITO VISA;328,99 
+6e947c72-a9f1-462f-a659-50159f57e564;11/11/2024;QR Code Pix enviado;Posto Lider;-50,00 
+66ef0e2f-3158-4e2a-9600-1a3053b4a7a8;11/11/2024;Vendas;Disponivel CREDITO ELO;96,21 
+c34f93dd-72aa-472d-9e7f-f1220a91b7e5;11/11/2024;Vendas;Disponivel CREDITO MASTERCARD;115,45 
+26ac66a5-823a-43b9-bb87-a1b32d0e9e6a;11/11/2024;QR Code Pix enviado;Comercial Ferraz;-29,51 
+53a87857-efd3-43f7-9544-21dc9b558bf9;11/11/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-10,60 
+356f91a2-317b-4ee3-85f1-722628441617;12/11/2024;Pix enviado;Michael Seif Martins;-100,00 
+8c5ed79f-4fc9-441f-81a8-7e3191e87d89;12/11/2024;Pix enviado;Luciano Segundo Guerra Silva;-10,00 
+8572b99e-c69b-4c07-9318-8abf3baf1a12;12/11/2024;Pix enviado;Luciano Segundo Guerra Silva;-180,00 
+03609210-100e-4b90-bd29-33004081446d;12/11/2024;Pix enviado;Jamille Franco Alves;-10,00 
+c88d1672-7b76-45e5-87c1-ce8e3040b120;12/11/2024;Pix enviado;Jaine Franco Alves;-10,00 
+c26a2f3b-b92d-4c11-9d8e-daa62eedf64d;12/11/2024;Pix enviado;Jamille Franco Alves;-70,00 
+1ab3883f-74b1-4607-ab4d-1e1debd0ea3a;12/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-3,30 
+9a7ccbe8-146a-4b6c-8499-0df8efbb1223;12/11/2024;QR Code Pix enviado;Samuel Ramos Rodrigues 03986083502;-22,00 
+e23dafb3-8ee7-4061-b012-44eb1a6abe06;12/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-12,08 
+fbcd4c43-e883-49e0-9a27-c97702b19cf9;12/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+abfc7e16-73c4-45d4-a8ed-b8468106b440;12/11/2024;Pix recebido;Jaqueline Conceicao Dos Santos;100,00 
+5f3c8862-0fc5-46e5-bc19-522f761dd101;12/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-17,00 
+c52dca59-0d67-4e2d-a203-307b8880b074;12/11/2024;Pix enviado;Albertina De Castro;-827,00 
+3de6c56f-10fa-4041-88a2-0f4dd8dccbd5;13/11/2024;Vendas;Disponivel DEBITO VISA;48,80 
+588c7018-f4fb-47fc-a0f7-dcd2a0a8753e;13/11/2024;QR Code Pix enviado;Acacio De Souza Ramos;-16,00 
+7c377cde-15a3-4a0d-b5b5-b29940654d0e;13/11/2024;Pix recebido;Joenisson Ressurreicao Lima;100,00 
+6da51aa9-a877-4d86-b58a-d999e5f103f4;13/11/2024;Pix recebido;Rita De Cassia Oliveira Santos;1600,00 
+b2493bb0-3975-47cf-a584-4285f0fff2fb;14/11/2024;Pix enviado;Jaine Franco Alves;-50,00 
+8751aa82-25b3-4d42-b7e9-89b3dd3dd5d5;14/11/2024;Cartão da Conta;Produtos Globo           Rio De Janeirbr;-54,90 
+976da886-4aa7-49b0-8a9b-28a9ca17da51;14/11/2024;Pix enviado;26936080 Talita Dos Santos Rocha;-70,00 
+8b92548c-07ef-4a6c-8e30-114d41345499;14/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+71029983-da2f-4857-9f5c-9d6975077970;14/11/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-22,50 
+f2f55d4c-8d2c-46eb-9191-8096e29feb0e;14/11/2024;QR Code Pix enviado;Edmagro;-12,19 
+e522664b-10ab-4c05-861a-80fed4609caa;14/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-94,40 
+177c9a17-9568-4767-aa6c-46fa46e37264;14/11/2024;QR Code Pix enviado;Acacio De Souza Ramos;-11,90 
+9fbf7746-18fc-4675-98b7-50a9d3f1ce8f;14/11/2024;QR Code Pix enviado;Acacio De Souza Ramos;-85,77 
+5cbfb5b0-46d5-4279-ab1b-3f589bf4022f;14/11/2024;Pix enviado;Albertina De Castro;-15,00 
+eafb26ff-e12b-444d-bb1b-e19d9090b069;14/11/2024;Pix recebido;Lucas Santos Rios Batista;910,00 
+1613f942-cd3b-40be-919f-843f7b4f5f3f;14/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-6,94 
+2fc5c06b-84f2-49b7-ba65-de7e0974403a;14/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-14,20 
+f299aa69-d72c-462f-9f91-f52252d1516e;14/11/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-14,20 
+6cb49ee9-c5d5-4160-90c4-92de50aa4ea2;15/11/2024;Pix enviado;Jaine Franco Alves;-25,00 
+047306a8-f73b-4978-8de4-e31017315f80;15/11/2024;Pix enviado;Jaine Franco Alves;-50,00 
+13fa8b42-38fa-43fd-9bb3-e154d69f76dd;15/11/2024;QR Code Pix enviado;Mercadopago.com Representacoes Ltda.;-141,82 
+3e074ead-6022-46f2-8e9c-a9b418b261e3;15/11/2024;Pix enviado;Jaqueline Conceicao Dos Santos;-100,00 
+492e3bee-becb-4bd9-8b8e-08f546e8cabe;15/11/2024;Pix recebido;Marcio Botelho De Sousa;790,00 
+a5d4ba87-2fc5-4bdf-807e-e87a8fe9e488;15/11/2024;Pix recebido;Jose Paulo Amorim Bacelar               ;270,00 
+9ae3294c-7b28-4da9-a68e-c6ef84f56f3f;15/11/2024;Pix enviado;Ezequiel Simoes Macedo;-122,00 
+38c02637-d2a8-46c0-9a7d-a763e496fbc2;15/11/2024;Cartão da Conta;Mercadolivre*nerd        Osasco       Br;-154,00 
+990cc180-ec67-4a20-9f0f-3144dd2bd64b;15/11/2024;Cartão da Conta;Ec          *melimais    Osasco       Br;-9,90 
+ff466301-08d5-4f8e-9b0b-05b5c4ea3a7a;15/11/2024;Vendas;Disponivel DEBITO MASTERCARD;370,92 
+2bdc7b14-4308-43e3-80c0-f24b8d2858d1;15/11/2024;QR Code Pix enviado;Leandro De Souza Teixeira;-12,00 
+f6a0057b-e2f3-43da-ad6c-32980df05da9;16/11/2024;Pix enviado;Rafael Portugal Borges;-37,00 
+b62c51a3-97ae-421d-a401-9e663d26f0cb;16/11/2024;Cartão da Conta;Google Youtube           Sao Paulo    Br;-24,90 
+7dc116e9-a516-4a98-aa98-51803e91288e;16/11/2024;Pix enviado;Daniel Moreira Alves Neto;-150,00 
+4f893436-9126-4e8c-ab09-84af52691a56;16/11/2024;Pix recebido;Cleusa Barbosa Sampaio Pereira Da Silva;170,00 
+db42219f-2c91-4b28-95ee-2517ecc1ef3f;16/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-68,66 
+43985115-7101-4503-a4a8-0ebd0454c70c;16/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-34,17 
+d475102a-eee1-4f9d-b376-9c6e862ac71c;16/11/2024;Pix enviado;Edilene Da Cruz Costa;-20,00 
+3fb20f12-d24d-4db3-8acb-7d14bdfd63c2;16/11/2024;Pix recebido;Jaqueline Conceicao Dos Santos;50,00 
+92323575-4b80-4692-b6fd-134836fb76a5;16/11/2024;Pix enviado;Jaqueline Franco Alves;-50,00 
+c33f5b47-13cd-484b-884a-e71d0f36b7ec;16/11/2024;Pix enviado;Jaqueline Conceicao Dos Santos;-50,00 
+0cff1f3f-a873-4bc9-af77-7cfc12872d57;16/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-13,73 
+d4c99bf9-e58e-40f8-a864-39ee5bda3718;16/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-16,80 
+a93533d3-ff4e-4bb5-9758-1f578c2d323c;16/11/2024;Cartão da Conta;Google Max Stream Hbo    Sao Paulo    Br;-16,90 
+4d094ead-96cb-4b80-b83a-0b2c09184924;17/11/2024;Pix enviado;Abraao Campos Lopes;-64,00 
+9bebf95d-4fec-40a2-9fe1-9c2a8c318512;17/11/2024;QR Code Pix enviado;Benedito Carlos Conceicao Do Rosario;-5,00 
+102a1b6b-11c2-4a74-b110-1baf7a249350;17/11/2024;Pix recebido;Alvaro;80,00 
+5a19d783-c56d-4a68-94c5-f043ec957b9d;17/11/2024;Pix recebido;Romeu Gazinelli Nt;1420,00 
+684498fa-c3cc-4b6b-bea1-3f1d03590d3f;17/11/2024;Cartão da Conta;Mercadolivre*mercadolivreosasco       Br;-102,16 
+69b50d82-ef7a-4bcc-b219-77cc71923194;17/11/2024;Pix enviado;Jamille Franco Alves;-28,00 
+6cafbce0-bdc2-42d0-9642-735bec05b3c3;17/11/2024;Pix enviado;Antonio Marcos Araujo Dias;-250,00 
+bd6dc0a5-d81d-4174-8566-277a211776f4;17/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-19,57 
+3ac82071-6003-458b-8fc9-03b84527d872;17/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-24,50 
+ef1dce7a-ad5d-435d-a28e-b4a496cec6b1;18/11/2024;Cartão da Conta;Netflix, Inc.            186-65797172 Us;-145,84 
+bb1d9b41-ecb1-40f9-9235-7d46900e697b;18/11/2024;QR Code Pix enviado;Posto Alcobaca Derivados De Petroleo Ltda;-50,00 
+4a2d3ed9-b3f5-497f-930b-23a9589b6634;18/11/2024;Pix recebido;Elaine Da Silva Pereira;500,00 
+8cee1992-28e3-4640-9b05-b449dcc1e9e4;18/11/2024;QR Code Pix enviado;Google;-69,90 
+6f50f0e2-d63a-48e7-a293-2b19ea33e03e;18/11/2024;Pix enviado;Jaine Franco Alves;-100,00 
+9ea21daa-1857-45f1-a27d-d82c0795a9e5;19/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,03 
+28ab460a-b98c-4e9b-92bb-afaf54747bc3;19/11/2024;Pix recebido;Clarice Silva Dos Santos;315,00 
+6817f6e2-7ed1-4527-8171-d38abf45f2e5;19/11/2024;Pix recebido;Bruno Fonseca Costa              ;180,00 
+bc8ff945-bfe1-44a0-92fa-04d9f0410998;19/11/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-15,00 
+252e0f5a-9ec9-4b8a-b4f5-42fd2d5a9e22;19/11/2024;Pix enviado;Jaine Franco Alves;-1000,00 
+c8c9aed2-89d0-41d2-9cd7-400366ab11d7;19/11/2024;QR Code Pix enviado;Sonia Claudia Marques Santos;-4,90 
+ed4ee029-f707-48b7-95b2-0af969b1b7b6;20/11/2024;Pix enviado;Guilherme Guerra Silva;-38,00 
+ecfa790b-1151-4b73-b7f4-375659412247;20/11/2024;Pix enviado;Jaine Franco Alves;-400,00 
+66d8aafe-435e-4711-b9d3-7b79995f5377;20/11/2024;QR Code Pix enviado;Roberto Carlos De Jesus Malta;-20,00 
+71e95466-0c5e-4dfd-9742-9e03127e8984;20/11/2024;QR Code Pix enviado;Churrascaria & Choperia Picanha Na Brasa;-68,00 
+529c841a-6807-424f-8c51-9a331f5188bc;21/11/2024;Pix enviado;Jaqueline Franco Alves;-20,00 
+84086813-fd5c-4aa6-aecb-b3de6efec52d;21/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-46,76 
+8fda3761-6a33-4272-84b0-bb2ed72a05c5;21/11/2024;QR Code Pix enviado;Acacio De Souza Ramos;-66,52 
+3f220d88-1914-48ce-9977-d022fdfc74cd;21/11/2024;Pix enviado;Ezequiel Simoes Macedo;-11,00 
+2e8ac652-a946-43a0-bdf1-3df388ef8e07;21/11/2024;Pix recebido;Jessica Souza Colen;1200,00 
+fd051118-b23c-4e32-b92d-1a25dad7053b;21/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-20,00 
+270ea171-d94d-4928-b480-fb2a3649a0fa;21/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-33,29 
+1386ec17-04a7-4454-a7de-1107007efe9e;21/11/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-8,20 
+e5bf9773-fabe-48de-8931-256c85ab6cea;21/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-6,46 
+2cf381fc-34f1-4aa7-906a-9114f46aa9e6;21/11/2024;Cartão da Conta - Ajuste a Crédito;     Netflix, Inc.            186-65797172 Us;139,37 
+11cc8e4e-4a5b-49e2-98ce-0df53dd2d784;22/11/2024;Pix enviado;Jaqueline Franco Alves;-10,00 
+11ee0c52-2383-4a52-83c9-b34f34a11e53;22/11/2024;QR Code Pix enviado;Benedito Carlos Conceicao Do Rosario;-21,00 
+23d95864-1add-4eab-af47-2d49be4fc856;22/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-21,67 
+d195709a-0227-472f-896f-4a744520ec4c;22/11/2024;Pix recebido;Jamille Franco Alves;218,00 
+d6dea1e2-02d5-48a9-94a1-0d096ae8126b;22/11/2024;QR Code Pix enviado;Mundo Das Racoes;-22,00 
+fd201a5f-c1ac-4b6c-88be-ca2ed8c1436f;22/11/2024;Cartão da Conta;Amazon Br                Sao Paulo    Br;-223,20 
+6c4b9893-2174-4080-9b07-881e8c841aa0;22/11/2024;Pix recebido;Lorenzo Turchini;230,00 
+66869da8-8dc5-43c3-be6d-ef35d010b813;22/11/2024;QR Code Pix enviado;Antônio Carlos Conceição Dos Anjos;-21,00 
+e559261a-eecf-446f-9ff7-5156f84acbc9;22/11/2024;Pix recebido;Erivelton Baldow;400,00 
+041e6a23-4701-4e90-9f17-3b62d570c550;22/11/2024;QR Code Pix enviado;Telefonica Brasil S A ;-53,12 
+d2be7b00-ac4f-4df5-b73b-123ec014d199;22/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-25,68 
+482ab000-3e68-4f57-b5ac-3b6f2b15e779;22/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-8,40 
+6d513051-d264-42f6-9f26-1cbbbbcda2ab;22/11/2024;QR Code Pix enviado;Edmagro;-32,87 
+7ce02337-c28a-4f72-af60-b2410b3f1eb5;23/11/2024;Pix enviado;Jaine Franco Alves;-300,00 
+511c83cb-7569-4a4a-b741-acbd4c39ac55;23/11/2024;Pix enviado;Rafael Portugal Borges;-37,00 
+ab3a7b1d-262c-400c-acae-e6ad64e5c6bd;23/11/2024;QR Code Pix enviado;Bom Barato;-46,99 
+5f71697e-6672-4ce4-a1a9-b61274f09ee3;23/11/2024;QR Code Pix enviado;Comercial Ferraz;-66,30 
+6e504fad-810d-45e8-840b-3644dfb154d8;23/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-8,08 
+dc769a81-62bc-4663-9b7b-17fd8b9b9383;23/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-20,69 
+fbbe998d-6bbe-4923-b5ff-211c9c7c2b3b;23/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-116,57 
+bb65e977-5b30-4e05-9833-f6adc0b5d224;23/11/2024;QR Code Pix enviado;Posto Lider;-50,00 
+5527a37c-eb07-4ca3-b12f-4237a8a99199;23/11/2024;Pix recebido;Edileide Umbelina Da Rocha              ;400,00 
+eb25cd85-a440-4b68-b757-d9d6e3f397e0;23/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-26,30 
+7fb09c4a-3eaa-41c7-93a1-89fe31d8524d;23/11/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-18,40 
+83e86980-2a12-46e5-ba44-e67fc3b9e135;24/11/2024;Pix enviado;Kezia Correia Silva;-60,00 
+09788395-d8be-4764-a59f-d06149bebcef;24/11/2024;QR Code Pix enviado;Rinaldo Meneses Farias;-13,00 
+b19aff9e-997f-427e-aad8-9075ba403c4a;24/11/2024;QR Code Pix enviado;Mucio Mauro De Oliveira Gomes;-36,49 
+a682d1c5-faa1-48b4-98d8-85ae4ac589ec;24/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-106,43 
+8079c6b1-e45e-4a9d-bd25-951b5717a9b7;24/11/2024;Pix recebido;Kelber Lourenço Gomes;70,00 
+c3d4601f-b7e6-4c14-8e76-6749de30e57c;24/11/2024;Pix recebido;Rendrick Costa Venâncio;70,00 
+598c7e1b-1dbd-4fa6-9fab-10214d694557;24/11/2024;Pix recebido;Mauricio Leite Zancanella;140,00 
+8ad65a4c-7363-404c-8773-19a849c82d7d;24/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,99 
+f8c1634f-5ef9-49aa-8eb9-21c73fbba547;24/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-11,20 
+b41a6bb7-2f95-411d-b297-5134932ef6e5;25/11/2024;Cartão da Conta;Google Disney            Sao Paulo    Br;-62,90 
+d921a259-d7b9-4dcb-b722-a9798cd31dbe;25/11/2024;QR Code Pix enviado;Granito Instituicao;-100,00 
+228be394-0f3c-408d-a749-5f2f3041f09d;25/11/2024;QR Code Pix enviado;Astral Comercio De Bebidas Ltda;-81,00 
+66dca4dc-e6fc-4d44-af34-09cc653f1624;25/11/2024;QR Code Pix enviado;Irmaos Mattar   Cia Ltda                         ;-73,89 
+3135e975-dcb0-42b5-8cf5-d9bd86188099;25/11/2024;QR Code Pix enviado;Irmaos Mattar   Cia Ltda                         ;-51,78 
+907ae51a-2ec8-48fc-aea4-56f459e532b6;25/11/2024;QR Code Pix enviado;Mercado Point Da Carne;-140,00 
+cd8f7b79-eb80-4d8e-82c0-985b87dd412b;25/11/2024;QR Code Pix enviado;Mateus Supermercados S.a.;-676,07 
+01ac626a-51c0-4f22-b413-24dfddd6563b;25/11/2024;QR Code Pix enviado;Rondelli Comercio E Transporte Ltda;-138,27 
+31db17c4-570b-41a9-b845-66a4063da765;25/11/2024;Pix enviado;Jamille Franco Alves;-200,00 
+10d582d9-6604-4f52-aed1-9a0ad9dc6359;25/11/2024;Pix enviado;Jamille Franco Alves;-50,00 
+dc23a214-c0b8-43eb-a0bf-bfaca83e5c55;25/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+1885a7d8-561a-4cf7-8d0b-bb2efe699bff;25/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,30 
+e599ca6f-b475-4970-bf8c-4b820cf07756;25/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-4,20 
+b3b2d9c2-9e7b-45e8-b49d-33dab48698d1;26/11/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-37,84 
+9f7573fa-7411-4666-9786-c881353869e8;26/11/2024;QR Code Pix enviado;Posto Lider;-50,00 
+e0b5b27b-06c1-41c2-8779-db1f8c3760b6;26/11/2024;QR Code Pix enviado;Greice K S Brito & Cia Ltda;-20,00 
+0cf427ff-c9b5-4589-aa01-748c88805883;26/11/2024;QR Code Pix enviado;Leandro De Souza Teixeira;-8,00 
+1484867c-6753-4880-a118-d28c36be2e67;26/11/2024;Pix enviado;Tiago Rodrigues Da Silva Filho;-200,00 
+0b861067-eb8c-47b9-b9ed-986349fac22a;26/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-4,20 
+f098953d-aaf7-4de5-83dd-7efe0f04eda1;26/11/2024;Cartão da Conta;Netflix.com              Sao Paulo    Br;-59,90 
+2440bda4-5eeb-4819-a7c8-72158064a676;27/11/2024;Pix enviado;Jaine Franco Alves;-11,00 
+0f8452f7-ca5d-4ee1-bd61-17d310b32d0a;27/11/2024;Pix recebido;Antonio Carlos P Alcantara;85,00 
+810e0474-c365-4a28-bd31-0ba3099b987c;27/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-35,30 
+2cb5b062-b34d-4a47-9bc9-14b8c77bdc60;27/11/2024;QR Code Pix enviado;Erisvaldo Pereira Brito                 ;-9,75 
+609d7046-4ab7-4cbe-8e51-f767afb40a0c;27/11/2024;Cartão da Conta;Mercadolivre*toalhashow  Osasco       Br;-185,90 
+28ad5d2b-0065-45bc-80a3-c5d9e2946e79;28/11/2024;Pix recebido;Italo Francisco Dos Santos;170,00 
+65d54555-73e2-4de0-b36e-0d436179f331;28/11/2024;Cartão da Conta;Mercadolivre*bhrcomerciodosasco       Br;-99,20 
+36dec54c-5118-4584-b007-5cda2cf0803d;28/11/2024;Cartão da Conta;Mercadolivre*njeansconfecosasco       Br;-71,49 
+29bcd0b9-7b27-4cb6-a2d4-279a0d35c3f2;28/11/2024;Cartão da Conta;Mercadolivre*baseconfeccaosasco       Br;-98,40 
+4d305796-4d60-4a2d-a227-ec1bb90f7b98;28/11/2024;Pix enviado;Jaine Franco Alves;-300,00 
+8b96f474-7e8f-49dd-a7c3-61418196b576;28/11/2024;Pix recebido;Katia Almeida Teixeira;840,00 
+85c3b439-cf3d-40c2-8be6-1f4e27d21504;28/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-66,55 
+de0fab46-109f-40f3-b071-e730fbbc0ef6;28/11/2024;Pix recebido;Daniel Dos Santos Santana;880,00 
+936f04a9-91d1-4475-973e-7938ea22e4e0;28/11/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-4,20 
+641d3283-22ab-4cdb-9bca-146adbd1b975;29/11/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+fc1c37ea-8761-4d7f-b619-b3233e9dbee0;29/11/2024;Pix enviado;Jaine Franco Alves;-300,00 
+7a969849-e1e3-405f-a78b-6db258cbde84;29/11/2024;Pix enviado;Patricia Medeiros Santos;-13,00 
+bb2ab209-540f-47e6-843f-e97a3f6873ac;29/11/2024;QR Code Pix enviado;Bom Barato;-86,48 
+23ede563-143f-4747-903f-bc3afe1b3b57;29/11/2024;Pix enviado;Jaqueline Franco Alves;-30,00 
+c322d66a-d4ce-4613-90fe-873814f6e6fa;29/11/2024;Pix recebido;Lorenzo Turchini;900,00 
+025667a0-2953-4c14-809e-1a188f89497b;29/11/2024;Cartão da Conta;Mercadolivre*ebazarcombrlosasco       Br;-820,12 
+5ec0dec8-fc23-4519-9498-4cad2bf169ae;29/11/2024;Pix recebido;Dimas Weberling Assumpcao Filho;255,00 
+c80f8cde-32fc-428e-8dcb-409025f8f276;29/11/2024;Cartão da Conta;Mercadolivre*utilitycoml Osasco       Br;-30,89 
+9c52c749-8e6c-4f63-940a-b681999cf578;29/11/2024;Cartão da Conta;Mercadolivre*douroimportsosasco       Br;-67,14 
+4dde2a01-39ad-4828-a93a-799508e47998;29/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-2,20 
+cb612a2a-830f-4324-adac-268c9826a444;30/11/2024;Pix recebido;Camila Aragao Da Anunciacao;320,00 
+57f8d5c9-5f9b-4b6a-9dc4-2bef15a74608;30/11/2024;Pix recebido;Gilberto De Assis Ferreira;160,00 
+56061e7d-d887-4e27-a129-f20bc881bdde;30/11/2024;Pix recebido;Rodrigo Santos Dantas                   ;170,00 
+911fc7bd-f30b-4acf-8ec6-f364d0f3e336;30/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-4,87 
+20be713d-08c5-49b0-8a65-66dfd00ce5f2;30/11/2024;Pix enviado;Jaqueline Franco Alves;-60,00 
+3963bf8b-a8a1-468d-812f-24d18606fdb4;30/11/2024;Pix recebido;Rita De Cassia Oliveira Santos;2000,00 
+887a3a42-ca2d-451c-a42e-ca983d28047a;30/11/2024;QR Code Pix enviado;Anselmo Jose Botelho;-11,21 
+6e91a7a7-ef68-4946-aa68-f3a588699aef;30/11/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-10,20 
+bb796237-4c5c-49ea-abd0-34b6212095b4;30/11/2024;QR Code Pix enviado;Dimas Rosa Da Silva;-25,60 
+17ab80e3-dc2a-476d-8112-427a56edabbc;01/12/2024;Pix enviado;Angelica Nunes Teixeira;-33,00 
+b825bce3-575c-45c4-8ecb-55052b986f87;01/12/2024;Pix enviado;Kezia Correia Silva;-42,00 
+24338012-de0e-4d72-92ea-f35cbe2f6e64;01/12/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-100,00 
+1e1aff48-986d-4e32-83ec-756a16da2345;01/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-15,50 
+1f4c0f56-4e52-48ad-82df-658a9936b062;01/12/2024;QR Code Pix enviado;Alverinda Soares De Oliveira;-12,00 
+77b77d4d-49da-47c5-9c09-c03e034445fd;01/12/2024;Pix enviado;Marcio Botelho De Sousa;-790,00 
+e92955f8-558b-4324-90fa-681d2e4c9fa5;01/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+f3381c0b-f400-457f-852e-8e6f391b633c;01/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-35,30 
+6fbc66a5-19ca-4b62-b4c7-778dcfc6677a;01/12/2024;Cartão da Conta;Mercadolivre*plofy       Osasco       Br;-170,91 
+140b73c6-3060-486e-b114-91d90d579c1f;01/12/2024;QR Code Pix enviado;Acacio De Souza Ramos;-37,71 
+3c26f0f2-ad18-4298-97d9-3b16b86edce0;01/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-8,40 
+970d91f7-a330-4153-94ed-fe0892539a60;01/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-41,70 
+54147a59-6531-4d58-a1bb-10864d8d5101;02/12/2024;Pix recebido;Italo Fracisco Dos Santos;160,00 
+f32f3617-f3a1-4ecf-8889-19100a7e3ab8;02/12/2024;Pix enviado;Jaine Franco Alves;-15,00 
+c0de1b1b-91f1-4c05-b2e7-4edbce234154;02/12/2024;QR Code Pix enviado;Comercial Rocha;-10,90 
+599fd72f-eab0-4fe7-af6d-09bd4d53436a;02/12/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-8,50 
+138bf9be-44ac-4d2d-864d-1d13536fe839;02/12/2024;QR Code Pix enviado;Anselmo Jose Botelho;-8,37 
+29033920-0beb-4696-9815-3381564eb8e3;02/12/2024;QR Code Pix enviado;Dilmaria Calixto Muniz;-200,00 
+2e50b252-4d6d-4bb7-b89c-3f8380ca48c6;02/12/2024;QR Code Pix enviado;Drogaria Oliveira E Araujo Ltda;-14,70 
+451fe9d7-668d-4804-acad-232554472100;02/12/2024;QR Code Pix enviado;R F R Nogueira;-10,80 
+2682c656-3436-4f85-981f-681c98347372;02/12/2024;QR Code Pix enviado;Flaviano Dos Santos Matos;-11,50 
+8c03fabb-ea7b-47af-bbe5-debd27369ac3;02/12/2024;Recarga de celular;Vivo - (73) *****-8892;-25,00 
+4f470f00-82bf-4103-90cb-c691546cec70;02/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-9,99 
+4eb0cc0d-6f25-4124-acc1-4013d66b89f5;02/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-8,20 
+c31f3ff7-06c0-4e49-b622-7bd48f2755f9;03/12/2024;Pix enviado;Kezia Correia Silva;-36,00 
+13828b01-e7c3-4ed4-bb6d-41df3c7c2c8f;03/12/2024;Cartão da Conta;Mercadolivre*ebazarcombrlosasco       Br;-836,67 
+b225b40a-ebb3-41b4-a344-aec8354ac624;03/12/2024;Pix recebido;Lorenzo Turchini;370,00 
+4e0f3fa7-64b9-47e8-b563-ccb63d612931;03/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-81,79 
+a4db7912-814f-4ac2-8b0f-f7b06dddef38;03/12/2024;Pix enviado;Jaine Franco Alves;-10,00 
+13eb05fc-7674-45f9-bd18-b4f06549c924;03/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-17,40 
+ede81ca9-a659-4e77-aa2d-9fd402d613fe;03/12/2024;QR Code Pix enviado;Anselmo Jose Botelho;-11,42 
+06ec848f-af53-4367-a7c9-fff1e9e1041c;03/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-36,20 
+29dc2878-61ad-4b59-bb2f-ddd633282473;04/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+7841e797-83f8-4fa2-8c49-a2de215bc652;04/12/2024;QR Code Pix enviado;M Da C S Santana De Alcobaca;-50,00 
+026677f2-48ba-4459-bad5-ee3575deb1ef;04/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-4,80 
+8852aaff-106d-4da9-b2b7-f5a1c5888883;04/12/2024;QR Code Pix enviado;Acacio De Souza Ramos;-14,65 
+6cfcd4eb-2a96-4a27-ba30-c8a1a26d4227;04/12/2024;Pix enviado;Lusangela Oliveira De Souza;-17,00 
+9b3346ff-d7f7-429d-9942-f1f162ecec50;04/12/2024;Pix enviado;Jaine Franco Alves;-338,00 
+1d595af1-7aeb-4a3c-bd62-da5975f3cc1f;04/12/2024;Pix recebido;Dimas Weberling Assumpcao Filho;225,00 
+30f03969-5f64-42d4-8339-fae7cfda8a89;04/12/2024;QR Code Pix enviado;Zara Brasil Ltda;-399,00 
+9756e7b1-ab9c-4793-8a42-a88c2ad4fa6d;04/12/2024;Cartão da Conta;Google One               Sao Paulo    Br;-119,90 
+d384cea1-4519-4211-8d5b-8173016046de;04/12/2024;Cartão da Conta;Google One               Sao Paulo    Br;-79,90 
+cc4cb5f9-e0b9-4705-9bcf-ac0b16d6852d;04/12/2024;Recargas e Gift Cards;Google Play;-100,00 
+6e8e5f36-c0b1-4b42-adf2-1e3e2b52d460;04/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-29,40 
+3e26ba84-e95c-43bf-afb4-cc8fe936e72e;05/12/2024;Pix recebido;Maria Das Neves De Sousa Vieir;630,00 
+e547253b-dd0d-4c47-8b50-15a9f5b3666d;05/12/2024;Pix enviado;Luciano Segundo Guerra Silva;-0,50 
+4f0af4f6-e807-48bf-940d-3993f2ea4c34;05/12/2024;Pix enviado;Luciano Segundo Guerra Silva;-180,00 
+73c7ab90-952b-4993-84c6-b4d719f1c9f3;05/12/2024;QR Code Pix enviado;Flaviano Dos Santos Matos;-22,00 
+a609299c-e4e7-4dd6-a084-c2f352f52393;05/12/2024;Pix recebido;Daniele Turchini;67,00 
+7316407d-ae92-4fd3-a04d-584528e6aeb8;05/12/2024;Cartão da Conta;Mercadolivre*brunabeneditosasco       Br;-199,90 
+e7eeaaaa-d79a-46de-8d75-109b009db702;05/12/2024;Pix enviado;Izildinha Aparecida Matos Brito         ;-2083,00 
+d78fa4cc-ef57-47f9-adc6-e584a7933fea;06/12/2024;Pix enviado;Kezia Correia Silva;-36,00 
+365c0357-4d5f-4782-bb1b-cab033f1a9af;06/12/2024;Pix enviado;Angerley Dias Silva;-588,00 
+850b22c9-3739-4d8b-873b-aff8d02d98e4;06/12/2024;Pix recebido;Celma De Andrade Benezoli;850,00 
+5ef2b077-908e-4453-9cb5-4bfef451c0ae;06/12/2024;Pix enviado;Jaine Franco Alves;-30,00 
+c054905b-72fe-42d0-aed6-8f5ac5461c0a;06/12/2024;Cartão da Conta;Google Instagram         Sao Paulo    Br;-18,99 
+03859332-8a53-461a-9c3a-28cd6bce4da0;06/12/2024;Pix recebido;Luciene Barbosa Da Silva Souza;650,00 
+0dc69904-d361-420e-a961-768a1aec762d;07/12/2024;Pix recebido;Ednaldo Resende De Souza;220,00 
+3eb81768-fa75-4cf3-9113-f8d62c6717aa;07/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+2a6a6066-4bcf-4c68-b333-9ae894dbba22;07/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-65,30 
+21de9052-36b1-4b47-8236-d009df7c9b9f;07/12/2024;QR Code Pix enviado;Anselmo José Botelho;-61,91 
+7dcb1b7b-6dac-43db-90eb-e73495d766c4;07/12/2024;Pix recebido;Marina Brum Da Silva Santiago;945,00 
+f80bbe40-0f8e-4e3a-80fc-31f1fad519a4;07/12/2024;Pix recebido;Viviane Conceição Nascimento;170,00 
+9a09f078-e499-480b-9778-65ba9aedb8cb;07/12/2024;Pagamento de conta;Saturno Comunicacoes Ltda;-108,50 
+17210422-aaa5-455b-b154-a76b89c96922;07/12/2024;Pix enviado;Jaqueline Franco Alves;-100,00 
+e58ab079-6c2e-4ec8-bf5d-be8e99fd3249;08/12/2024;Pix enviado;Rafael Portugal Borges;-63,00 
+259171ce-fc07-08aa-810b-057962adec99;08/12/2024;Rendimento da conta;Rendimento líquido sobre dinheiro em conta;0,57 
+04b3f6d6-9ecc-48b0-a08a-10471e0ba257;08/12/2024;Pix recebido;Joseane Rocha Dias Aguiar;220,00 
+7388c2ac-ab01-414f-b024-382223dd4cd1;08/12/2024;Recarga de celular;Vivo - (73) *****-3865;-20,00 
+7925d52c-abcf-4a7b-a28b-6dda3547fdbf;08/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-27,80 
+cb9df652-4208-4d4a-a4e5-426b4ed82a47;08/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-8,00 
+8c4a5df4-4738-4d6a-a414-a4a7c5dfe8c3;08/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-17,50 
+5e6a13b4-dafa-473f-9fd2-2112015d1af2;09/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-71,20 
+99230ad9-9054-4d26-b8c1-72e5fd69126e;09/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-7,99 
+98fe61d1-945b-4d5b-ad4a-7717010c95ac;09/12/2024;QR Code Pix enviado;Mundo Das Racoes;-34,00 
+85f6583b-69f9-4fd2-8277-c8dbd44933a0;09/12/2024;QR Code Pix enviado;Cleidimar Teixeira Machado 78306345215;-25,00 
+bd0ece35-110e-4b71-9188-1308632a872f;10/12/2024;QR Code Pix enviado;Phenon Producao E Entretenimento Online Ltda;-39,90 
+43c7fa13-582a-4cd4-bcd9-a1ceb3183d04;10/12/2024;QR Code Pix enviado;Creuza Costa Santos;-501,00 
+2397f0a2-03b9-42a2-97ae-8b631e362275;10/12/2024;Pix enviado;Jaqueline Franco Alves;-230,00 
+d7744589-1fdc-4f39-b7e6-6d68f6a11bff;10/12/2024;Cartão da Conta;Google Amazon Mobile     Sao Paulo    Br;-19,90 
+239ebc84-17e1-44ed-8031-e9f65867e0ed;10/12/2024;QR Code Pix enviado;Drogaria Araujo;-28,00 
+70107d67-98f6-4e0c-84ad-0c1c34822073;10/12/2024;QR Code Pix enviado;Anselmo José Botelho;-42,83 
+42177659-6a86-495b-ac37-d9f8bc6f55f3;10/12/2024;Pix enviado;Ezequiel Simoes Macedo;-28,00 
+3cba94f3-2445-4809-8898-66dd466977e3;10/12/2024;Pix enviado;Jaine Franco Alves;-448,00 
+7e7e942b-229c-43da-beaa-f00891579cce;10/12/2024;QR Code Pix enviado;Posto Lider;-50,00 
+054b4b9e-4890-452a-84e5-719e8b6f99f4;10/12/2024;Pix enviado;Michael Seif Martins;-50,00 
+f68f8313-2f33-4ad9-8525-97f0ae78f92d;10/12/2024;Pix enviado;Jaine Franco Alves;-8,00 
+3808e7f2-d5dd-4809-96be-8d9a2134a022;10/12/2024;Pix recebido;Sandra Lemos Ferreira;1100,00 
+7ac81302-be04-4bcb-a302-0a0305946098;10/12/2024;Pix enviado;Jaine Franco Alves;-100,00 
+1be9daf5-e7fd-458b-8848-97efe9becd9d;10/12/2024;QR Code Pix enviado;Acacio De Souza Ramos;-56,50 
+5726aee4-f0d5-4f45-a54b-1d610f8ac403;10/12/2024;QR Code Pix enviado;Flaviano Dos Santos Matos;-8,00 
+1a2e8658-f1da-4dc9-92ce-65d6bf49dad6;10/12/2024;QR Code Pix enviado;Itl Fibra;-86,84 
+469b012d-c312-417a-9162-dc577fd87106;10/12/2024;QR Code Pix enviado;Anselmo José Botelho;-8,44 
+ebf7153e-748b-4fd0-a233-0c33b1878238;10/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-26,64 
+da640ce9-f4e0-421c-bd84-a84db3133bfa;10/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-26,20 
+9e46dd2b-e353-43c5-abdb-1b379c4ec90d;11/12/2024;Pix enviado;Jaine Franco Alves;-150,00 
+5d8a58f4-ddc3-4e08-b036-3e89ee334d34;11/12/2024;QR Code Pix enviado;Shein;-358,17 
+a3595d65-3ab6-4074-92e6-4d93fa1b22d0;11/12/2024;Pix enviado;Jamille Franco Alves;-10,00 
+12d556f5-607c-446a-a504-2265d9cf69d5;11/12/2024;Pix enviado;Benedita Santos De Souza;-15,00 
+e67ec274-a802-4514-ade0-ec0947faf624;11/12/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-8,75 
+8345215a-0f7e-446f-a135-9037a9c61c32;11/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-35,70 
+5f487a06-addd-459d-81d1-baeb765e2181;11/12/2024;Pix recebido;Danilo Yancovich;170,00 
+44fd7fbd-705e-0b8a-8627-1a06e990e1d6;11/12/2024;Rendimento da conta;Rendimento líquido sobre dinheiro em conta;13,59 
+90dd823b-da12-4fbe-904f-37d4729880f2;11/12/2024;Pix recebido;Ana Valeria F Santos Azevedo;1600,00 
+b1422b45-8598-44ff-a6a8-4f0f5749fb90;11/12/2024;Pix enviado;Jose Carlos Ramos;-35,00 
+16e10777-0602-4786-b857-3c9e7d34aab8;11/12/2024;QR Code Pix enviado;Acacio De Souza Ramos;-22,35 
+f66e3b68-faef-45f6-b012-51faab67c2ab;11/12/2024;Vendas;Disponivel CREDITO VISA;1010,19 
+e02989af-0ed8-4209-9cff-a2f415f7d295;11/12/2024;Vendas;Disponivel CREDITO MASTERCARD;460,09 
+4da6260e-ae52-4a79-843c-28a7cccc1fa2;11/12/2024;Vendas;Disponivel CREDITO VISA;450,31 
+78d228fd-7a1d-49a3-814a-1138aa0c680f;11/12/2024;Vendas;Disponivel CREDITO MASTERCARD;191,85 
+dccfd700-0691-43c8-8491-3ef353ecec6b;11/12/2024;Vendas;Disponivel DEBITO MASTERCARD;97,61 
+4f411107-9307-4ad6-9fa2-819faeadd87f;11/12/2024;Renda Fixa;Aplicação em CDB;-1782,62 
+9b5f5946-1bd1-40df-979e-b8bed4be21eb;11/12/2024;Vendas;Disponivel CREDITO VISA;232,34 
+81497a4b-bbe5-420f-bf6c-3122254e5f0c;11/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-33,80 
+37304847-bb97-4c97-a717-a5754fc20dbe;11/12/2024;QR Code Pix enviado;Anselmo José Botelho;-12,04 
+e55a0bbd-3f11-41dc-be4b-54e930ee6cbe;11/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-9,80 
+c2f7bdb9-d773-43d4-a5a9-6dedd22c7d7c;11/12/2024;Renda Fixa;Aplicação em CDB;-2000,00 
+c7db72bf-6385-45f7-b993-a5d4768e614f;12/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-90,78 
+25d94d8b-e155-4feb-accd-cf9da7de1991;12/12/2024;QR Code Pix enviado;Anselmo José Botelho;-46,38 
+29c5abf9-9fd5-4bf1-b3a7-f3b4079b3bf4;12/12/2024;Renda Fixa;Aplicação em CDB;-2000,00 
+11405bfc-9f6a-4b53-8179-0be0c3b13791;12/12/2024;Pix recebido;Itamar Pacheco Da Silva;450,00 
+d091cfbc-9620-498f-ad7a-d8a5c9d6c8c7;12/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-8,40 
+0f816fca-fa2c-4ab5-af51-480c6e1f2044;12/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-16,40 
+b6ee04d7-f26a-4661-8cdf-4a623a370ab7;13/12/2024;QR Code Pix enviado;Drogaria Araujo;-29,93 
+590a579a-24c9-49e7-98aa-96797607eef9;13/12/2024;QR Code Pix enviado;Posto Lider;-50,00 
+87e81a2e-cba5-4961-a44b-5032673c1e91;13/12/2024;Pix enviado;Jamille Franco Alves;-10,00 
+b2eb863b-88e8-021d-94ef-4b37c2e0e5eb;13/12/2024;Rendimento da conta;Rendimento líquido sobre dinheiro em conta;3,52 
+3f29d174-2747-478d-8614-123e04e03376;13/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-7,49 
+20d9cdb7-af23-405e-868f-cc16e14344de;13/12/2024;Pix enviado;Adalton Nascimento De Souza;-600,00 
+269a2f5a-2dfb-4caa-b55e-bb1b609ef7d7;13/12/2024;Renda Fixa;Resgate total de CDB;1000,00 
+312aaaa1-831b-43b6-9349-9d2ed79fd617;13/12/2024;Renda Fixa;Aplicação em CDB;-1292,50 
+bced12f8-a122-4c98-8cb5-2924a9b9bf67;13/12/2024;Pix enviado;Mundo Das Racoes;-22,00 
+c041410a-7827-40e4-8275-3c7fca58780b;13/12/2024;Vendas;Disponivel DEBITO MASTERCARD;48,80 
+0b292f1d-2638-4fa8-809a-981852ae2fb6;13/12/2024;Cartão da Conta;Mercadolivre*braslimpocomosasco       Br;-315,96 
+25081d51-1e90-43d7-9b66-bb1fd314cb34;13/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-11,25 
+096f1f0d-c4e6-4871-b54b-f8246bc99c4c;13/12/2024;QR Code Pix enviado;R F R Nogueira;-16,80 
+350b7aea-589b-430d-b90b-54e36f5fd01f;13/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues 12423492782;-37,00 
+019a783e-55f6-4107-b8da-cb1d5de2c4db;14/12/2024;Pix enviado;Jaine Franco Alves;-1,00 
+937969f6-9efb-4034-b110-ef37289cb721;14/12/2024;Pix enviado;Jaine Franco Alves;-87,00 
+8715ed46-935c-42b6-a35e-9726ab7b72e1;14/12/2024;Pix enviado;Jaine Franco Alves;-70,00 
+74c532bd-2e16-42d5-91c3-c009a37358d0;14/12/2024;Pix recebido;Lucas Zankowitch Costa;125,00 
+2f3e1cd6-65c6-4269-8ed0-358e6aa8c04b;14/12/2024;Pix recebido;Danilo Yancovich;90,00 
+5c16b3a5-9e4e-42bc-b157-2f36c99f4031;14/12/2024;Cartão da Conta;Mercadolivre*renovaenxovaosasco       Br;-269,95 
+56e49f20-9a5e-4c56-b77b-1da42f179ea5;14/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+595f32d7-8871-4ff4-b9b3-7294c62a5632;14/12/2024;QR Code Pix enviado;Acacio De Souza Ramos;-55,90 
+aa3393e9-5044-467c-bfa1-2a1469a941ae;14/12/2024;QR Code Pix enviado;Anselmo José Botelho;-9,85 
+f431bb85-c324-40dd-b513-0ad3aa6ab435;14/12/2024;QR Code Pix enviado;Rita Soares Dos Santos;-7,00 
+c25dc04d-bdaa-45cb-a859-eb082316e84b;14/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-60,45 
+0dd067ac-6e94-4788-bdca-baff4795c03c;14/12/2024;Pix recebido;Lorenzo Turchini;250,00 
+45381442-8088-442a-a4d7-60b3c0f8c572;14/12/2024;Cartão da Conta;Mercadolivre*rosemarqu   So Paulo     Br;-248,30 
+ed1ff926-bf8e-464d-8be0-274165c66446;14/12/2024;Recarga de celular;Vivo - (73) *****-8892;-20,00 
+85466e48-0119-4fd9-a7fb-17c6d36036f9;14/12/2024;Pix enviado;Jaine Franco Alves;-300,00 
+03c45850-3803-4c94-8109-392df554641d;14/12/2024;Renda Fixa;Resgate total de CDB;500,00 
+144c4120-a537-438f-ad55-6dc32098177d;14/12/2024;Vendas;Disponivel DEBITO MASTERCARD;48,80 
+da6dcdb5-3328-406e-b8ed-c813f43e7379;14/12/2024;Cartão da Conta;Produtos Globo           Rio De Janeirbr;-54,90 
+949d1eba-5edc-4648-a188-b0ff7084e77c;14/12/2024;Renda Fixa;Resgate total de CDB;300,00 
+92a20ca1-a7a9-42bc-a54d-d71348892e10;14/12/2024;Cartão da Conta;Mercadolivre*amjlocacoescosasco       Br;-259,34 
+98b05e7d-99cc-4f29-92fe-2fb658f2a9d2;14/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-22,65 
+68a1c35b-93f9-4681-b836-e2a1b7ab966c;14/12/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-6,20 
+5a80ab88-a574-4ac4-a60a-1cd296a8a957;14/12/2024;QR Code Pix enviado;Anselmo José Botelho;-14,19 
+1c1bc3ba-8b1c-454d-bd3b-664817d423b8;15/12/2024;Pix enviado;Kezia Correia Silva;-36,00 
+e7689af0-d584-4ce7-8eac-009887d8fbf0;15/12/2024;QR Code Pix enviado;Posto Lider;-50,00 
+c1717389-5f55-4b5c-92ae-6fc705891352;15/12/2024;QR Code Pix enviado;Drogaria Araujo;-21,92 
+36615421-bbfe-49d2-b6af-d4a9f3b365e7;15/12/2024;Cartão da Conta;Google Youtube           Sao Paulo    Br;-24,90 
+b6dd320f-c73f-49f3-adcb-08404aedc6fe;15/12/2024;Pix recebido;Fernando Altoe;140,00 
+b5bcaa0c-863f-4d64-8c12-5f90804ace28;15/12/2024;Cartão da Conta;Mp*melimais              Osasco       Br;-9,90 
+5c71dd98-0042-4868-86d9-d11acb94616e;15/12/2024;Cartão da Conta;Mercadolivre*2eletroinfo Osasco       Br;-779,00 
+01d2c8b1-5098-4604-921f-9fac065a33f6;15/12/2024;Renda Fixa;Resgate total de CDB;1000,00 
+584a4453-e0e6-482b-9cc9-69b97f46ab76;15/12/2024;QR Code Pix enviado;Pagbrasil Pagamentos Eletronicos Ltda;-179,90 
+34a7b9fb-e7da-46a7-8ce5-bbfb145e964c;15/12/2024;Renda Fixa;Resgate total de CDB;300,01 
+d4c0becc-9fc6-4a84-87a8-2047dad2fb46;16/12/2024;Pix recebido;Samuel Alves Pereira;170,00 
+c63edd2f-edc7-4d16-a368-5a9eec76cbc1;16/12/2024;QR Code Pix enviado;Antônio Carlos Conceição Dos Anjos;-21,00 
+778b4a2a-2241-480c-bffc-d83355a52c00;16/12/2024;Renda Fixa;Aplicação em CDB;-104,64 
+68deb8e2-81f8-4ae3-adcb-b4e97fd2792d;16/12/2024;QR Code Pix enviado;Mercadopago.com Representacoes Ltda.;-141,82 
+1f45316c-362d-4157-8c20-d021ad4548ff;16/12/2024;Cartão da Conta;Mercadolivre*magda       Ibitinga     Br;-349,99 
+c65904d2-467b-42b2-88e6-9a02c9ab4a94;16/12/2024;QR Code Pix enviado;Anselmo José Botelho;-18,87 
+c8e57de8-e4dd-4180-80d2-5914dfd6ded6;16/12/2024;QR Code Pix enviado;Gustavo Mares Vieira 05149315583;-231,47 
+eee8ba87-74a4-4d6a-9c41-b8f3aed6f86c;16/12/2024;Cartão da Conta;Mercadolivre*baraotoal   Foz Do Iguau Br;-186,99 
+068854c6-93ea-4c43-838b-91e434576892;16/12/2024;Renda Fixa;Resgate total de CDB;1975,51 
+9039f207-cd0d-400b-b1f9-5be2d61065b0;16/12/2024;Renda Fixa;Aplicação em CDB;-707,06 
+9bd56dc6-91fe-4282-b4d2-285417095a9f;16/12/2024;QR Code Pix enviado;Gustavo Mares Vieira 05149315583;-1518,60 
+f1700afe-f7be-4938-847e-8f359f6fcaf3;16/12/2024;Renda Fixa;Resgate total de CDB;2000,00 
+9802dd5c-8d61-4ff2-85b9-d56b0d3aafa5;16/12/2024;QR Code Pix enviado;Ldg Material De Construcao;-25,00 
+bf2a7edc-90c6-49d2-8639-2fdbd7923e0a;16/12/2024;Cartão da Conta;Mercadolivre*nerd        Osasco       Br;-154,00 
+a39a0fed-9489-4b4f-891b-35e0d3550840;16/12/2024;Cartão da Conta;Google Wm Max Llc        Sao Paulo    Br;-16,90 
+f0fb5baf-9edd-4c01-a183-b31c15afa09e;17/12/2024;Cartão da Conta;Mercadolivre*rlnenxovais Osasco       Br;-101,60 
+1e6bca78-5e93-453c-9f3a-bd7c0970dc79;17/12/2024;QR Code Pix enviado;Drogaria Oliveira E Araujo Ltda;-8,00 
+c7c0e9b5-2ad9-4698-908f-1717027bf78a;17/12/2024;QR Code Pix enviado;R F R Nogueira;-9,85 
+837e22b4-ba87-467b-b8af-dc7f69a8a9ce;17/12/2024;QR Code Pix enviado;Dimas Roza;-58,00 
+1575b7e9-99e9-4da5-a0a9-090bcbf1ac47;17/12/2024;QR Code Pix enviado;Anselmo José Botelho;-27,98 
+071e6254-72c5-4563-8776-7e7ad1c6a24a;17/12/2024;Pix recebido;Márcia Oss Da Luz Anjos;100,00 
+1db551e3-757b-4964-a84b-6c891661a876;17/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+0d2ed70e-0caa-470a-9f8c-4b288b5b8d30;17/12/2024;Pix enviado;Jaine Franco Alves;-150,00 
+c1f79251-0968-456d-9b5e-efef02f15429;17/12/2024;Renda Fixa;Resgate total de CDB;700,00 
+492f29e0-ea5b-488f-9263-489e912103bd;17/12/2024;Renda Fixa;Aplicação em CDB;-1090,73 
+81886110-5e1c-4f4f-ba54-3a00bbff613b;18/12/2024;Pix enviado;Jaine Franco Alves;-100,00 
+b1c5fbb7-cb61-45de-8d9c-3b28995fd87d;18/12/2024;Cartão da Conta;Mercadolivre*evfcomerciodosasco       Br;-767,37 
+303f9e98-a4e8-45df-b5d6-464f06f5f946;18/12/2024;Renda Fixa;Resgate parcial de CDB;0,47 
+cec0d638-9428-4492-a047-498a069aabe8;18/12/2024;Cartão Valor Reservado;Resgate do valor reservado;1202,00 
+346d7f36-e1cf-4e2a-8452-5992684f5b7b;18/12/2024;QR Code Pix enviado;Ezequiel Simoes Macedo;-18,50 
+8688e9ea-630b-4e9c-8bc5-159f512d2522;18/12/2024;QR Code Pix enviado;Anselmo José Botelho;-3,57 
+8504c4dc-0824-4c02-9182-7a858a927e2c;18/12/2024;QR Code Pix enviado;Saturno Comunicações Ltda;-99,99 
+d9b8cacc-0901-4370-b263-6c10295b8687;18/12/2024;QR Code Pix enviado;Saturno Comunicações Ltda;-88,94 
+e0ffe6a9-753d-460c-abd2-4a60895c3892;18/12/2024;Pix recebido;Daniele Turchini;300,00 
+1dda18d4-663e-4c74-8525-171b687f0eeb;18/12/2024;Pix enviado;Mundo Das Racoes;-22,00 
+a83a3f5a-e380-402a-8b01-8c46b23b3edd;18/12/2024;QR Code Pix enviado;Anselmo José Botelho;-2,25 
+b3fba0af-f5b0-4057-8caf-dab36b9cebff;18/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-22,48 
+2d527adb-3886-4160-8297-52319044220d;18/12/2024;Cartão da Conta;Mercadolivre*plaslimp    Osasco       Br;-285,84 
+f1e3c079-14d7-4e89-bf92-0ee651be23ee;18/12/2024;QR Code Pix enviado;Simone Pereira Rodrigues;-14,80 
+283e806f-9f09-4290-b08b-67b658002f49;19/12/2024;Pix enviado;Kezia Correia Silva;-6,00 
+a7f2a712-f651-4e8b-927c-3066c1b8a645;19/12/2024;Pix enviado;Kezia Correia Silva;-36,00 
+0505d3f8-bf03-49ef-9689-fa6b72709b09;19/12/2024;Pix recebido;Augusta Resende Santana;180,00 
+d82fef97-5d87-4b9d-8d12-544f8a22e037;19/12/2024;Cartão da Conta;Mercadolivre*evfcomerciodosasco       Br;-776,67 
+d3365f1a-6549-482b-9f36-190493d30209;19/12/2024;QR Code Pix enviado;Vanderleia Tavares De Oliveira;-8,50 
+d4ae2174-7646-4674-aa31-826964af09e0;19/12/2024;QR Code Pix enviado;Ezequiel Simoes Macedo;-20,00 
+d0832c13-5485-4325-8e1a-63ddcc4f97a8;19/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-28,40 
+5e0e3479-725e-40e2-83c7-4aa0c3fa20df;19/12/2024;Pix recebido;Rita De Cassia Oliveira Santos;1800,00 
+b5207449-02fd-4c81-b47f-f7b8b34d932c;19/12/2024;Cartão da Conta;Mercadolivre*virtualfox  Osasco       Br;-136,99 
+b39ca43b-0100-4120-86b2-5aaf26f900b6;19/12/2024;Pix recebido;Dezyree Correia Neiva                   ;255,00 
+81c9db31-7faa-44a5-ab97-8277463cebcd;20/12/2024;Pix recebido;Enoque Gomes Felix;300,00 
+a93ad2de-7e09-430f-bc4b-8f2a8c1654ab;20/12/2024;Pix enviado;Jaine Franco Alves;-97,00 
+c1e6d459-1360-4c8b-b2cf-283447cd6156;20/12/2024;QR Code Pix enviado;Anselmo José Botelho;-37,59 
+bcd95437-b0cd-4e08-880d-3ad590103a8d;20/12/2024;QR Code Pix enviado;Erisvaldo Pereira Brito;-15,00 
+f7af110a-b2da-4925-ade3-9c363fd167e2;20/12/2024;QR Code Pix enviado;Ezequiel Simoes Macedo;-2,00 
+16937435-ea3a-46be-9349-217efba814c2;20/12/2024;QR Code Pix enviado;Vanderleia Tavares De Oliveira;-17,00 
+065b157e-1521-45f1-b995-5cff263ddaa4;20/12/2024;QR Code Pix enviado;Indiara Oliveira Dos Santos;-12,00 
+faae11fd-c292-4eb5-baf7-b588ab485aa8;20/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-8,50 
+cd62ec01-a6e2-4de4-b0df-ef48518891a9;20/12/2024;Pix recebido;Geanete Silva De Souza Moura;100,00 
+75d6e864-792c-47aa-a664-0b58dd61b936;20/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-18,44 
+2c94f10b-b209-45c7-b63c-11194665516a;20/12/2024;QR Code Pix enviado;R F R Nogueira;-14,90 
+28b69b41-ba14-455d-8b28-5241c886ca74;20/12/2024;Pix enviado;Edmagro;-49,54 
+def22059-c1e2-4baf-be22-d0a7414a9eef;21/12/2024;QR Code Pix enviado;Anselmo José Botelho;-15,50 
+dd1c6288-b7c6-4d45-9334-73f32d4d62fd;21/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-60,00 
+248db844-f6a6-4015-9e1b-e3fdbaad221d;21/12/2024;Pix enviado;Benedita Santos De Souza;-15,00 
+cd5c4afd-5856-4b4e-9481-af340269f5bf;21/12/2024;Pix enviado;Jaine Franco Alves;-300,00 
+91b5a7c7-c3aa-4c02-b4e7-493ef3cccf9b;21/12/2024;Pix recebido;Weslley Dos Santos Pinto;40,00 
+c5cf0fe1-a232-4ca2-baf6-5cb28c325686;21/12/2024;QR Code Pix enviado;Indiara Oliveira Dos Santos;-16,00 
+bf8f7baa-883e-4f3f-b6d1-9deeeba1e9c4;21/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-0,50 
+188fcf35-2cdc-41c6-8cf1-db30df2da9cb;21/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-22,00 
+8ba42dab-05d9-41a3-84ac-c452f4c19900;21/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-10,99 
+7a90036b-a385-4874-b9a0-6c4d827fd4bd;21/12/2024;Pix enviado;Ezequiel Simoes Macedo;-11,00 
+3a58ce27-7e17-4eaa-a770-fd0c4499ad4b;21/12/2024;Pix recebido;Jamille Franco Alves;500,00 
+7fc7561c-ea84-4e9d-b271-2953d8913428;21/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-9,80 
+02df7990-fa79-4c92-bdcc-35bf6c346898;21/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-26,25 
+485f2b42-c6fe-444c-981a-8a0ef054b331;21/12/2024;Cartão da Conta;Mercadolivre*bsusukiecommosasco       Br;-43,11 
+352ec33c-e0db-4722-8af9-e5374258e3ce;22/12/2024;QR Code Pix enviado;Telefonica Brasil S A ;-46,15 
+e9c05f33-55c9-4869-8694-ae93a06a1474;22/12/2024;Pix recebido;Antonio Carlos P Alcantara;115,00 
+e3dc2bce-ec82-405c-b3cb-aed448b3e440;22/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-16,80 
+8f19dc4e-e234-42b5-a20d-0e2a47cbdd1d;22/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-8,00 
+125f2bff-dd26-4ca2-a5cf-1e75b55bcf01;22/12/2024;QR Code Pix enviado;Posto Vip;-50,00 
+6267add1-46b3-43e2-bcea-894d5916cf4a;23/12/2024;QR Code Pix enviado;Posto Alcobaca Derivados De Petroleo Ltda;-50,00 
+8096bd5a-9560-42dd-9166-469b65e94dab;23/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-60,42 
+ad87a0e6-7880-459c-8bfe-33455e89b793;23/12/2024;QR Code Pix enviado;Dimas Roza;-105,00 
+c5c09a8e-46b2-4471-aaed-3602be38c286;23/12/2024;Pix enviado;Mundo Das Racoes;-22,00 
+f8ae7bd1-eb02-4cd0-9b8c-e7cae8bbdc00;23/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-26,00 
+ff0b4024-05d3-4486-bc0b-e94b276f4724;23/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,50 
+b26615ba-237e-4e3e-a4ac-b0a041af4ae0;23/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-9,99 
+8f5a4901-227e-4a76-b07e-0984b1a3e88a;23/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-7,00 
+8b7139be-ca7c-4660-9f95-4a1e99e29d0d;23/12/2024;Pix recebido;Anna Clara Amorim Pauferro;170,00 
+1e3cc53c-4df7-4d12-b46c-f5b3c9e8b1eb;24/12/2024;Cartão da Conta;Google Disney Mobile     Sao Paulo    Br;-62,90 
+f48166ba-33ca-47bb-868e-5c0bee3d5207;24/12/2024;QR Code Pix enviado;Maria Joana Queiroz Quinto;-9,00 
+afad5d6a-4d27-47f0-bf4a-0318f2ae5e6b;24/12/2024;Pix enviado;Jaine Franco Alves;-200,00 
+d4ca0016-7225-450e-a104-736073cfd44f;24/12/2024;Pix recebido;Edilane Lima Ferreira;180,00 
+510b0ee2-fea8-48f8-a560-250085e151fe;24/12/2024;QR Code Pix enviado;P C Silva Mercearia;-139,74 
+9e616286-2da9-4529-872a-1596eb41563b;24/12/2024;QR Code Pix enviado;P C Silva Mercearia;-4,45 
+82cc8389-6e68-4a74-b135-0079f5baf668;24/12/2024;Pix recebido;Ademicio Vieira Fernandes;190,00 
+3f78662d-a18f-4918-903a-b22841d1bfd5;24/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-8,40 
+958e268e-5f03-4167-ac78-d6fe8cbf8c4a;24/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-39,90 
+c093f5b2-ef05-4112-8894-f08fd7690a3b;24/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-24,80 
+66935525-7362-419d-abe5-492b0d99a936;25/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-42,41 
+97e02987-3a5e-4f9a-bacc-da319c9f8286;25/12/2024;QR Code Pix enviado;Posto Lider;-50,00 
+00d6b86d-dfa3-4eb9-b3f2-8f1881b0ac85;25/12/2024;QR Code Pix enviado;Indiara Oliveira Dos Santos;-163,90 
+42ff2441-fa29-416e-a902-81e4ad67ddd8;25/12/2024;Pix recebido;Gisela Maria Antunes Da Luz Eireli;700,00 
+d335c463-1607-47f7-abbe-004c56cd1b22;25/12/2024;Pix recebido;Marcela Da Luz Mota Tavares;700,00 
+b47ad5fc-7eed-4a43-8a2a-7829563ca647;25/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-24,40 
+c4c80f57-8e21-40c5-bd7a-cb488872c621;25/12/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-13,60 
+a8203d4b-4f3e-4fdd-99b4-a7ca752fba46;25/12/2024;QR Code Pix enviado;R F R Nogueira;-15,74 
+7c8741cb-df43-4d32-a8bb-24058cb16a26;25/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-36,84 
+70585838-97e2-418f-b0f7-42a6b0ba0ec1;26/12/2024;Pix enviado;Jaine Franco Alves;-130,00 
+a56a33b0-d0b4-4e1f-a339-3f656c6afba2;26/12/2024;Recarga de celular;Vivo - (73) *****-3865;-20,00 
+2f9b6c23-f504-434e-b5d6-235668b2f1ec;26/12/2024;QR Code Pix enviado;Telefonica Brasil S A ;-53,10 
+c40e2bac-67cd-4172-83bf-6b2d3581ae09;26/12/2024;Pix recebido;Denise De Souza Serra Costa;100,00 
+d1d0a06a-ca46-42a3-9f3a-861fd0904e3c;26/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+a6f4e54e-2193-4809-a17b-d2937183c7c5;26/12/2024;Pix enviado;Mundo Das Racoes;-44,00 
+8db4eab8-d422-4a1c-9ebd-e0752fb8e3d2;26/12/2024;QR Code Pix enviado;Vanderleia Tavares De Oliveira;-39,00 
+2183029e-b267-41af-bf4b-a93e84d53a36;26/12/2024;Pix enviado;Sebastiao Lopes Moreira Junior;-60,00 
+6f54ec05-2f8c-4794-acfe-75a9b1eab361;26/12/2024;Pix recebido;Celma De Andrade Benezoli;850,00 
+25e0880a-68f9-4b15-9fba-cd336517e48b;26/12/2024;Cartão da Conta;Mercadolivre*sprochownikcosasco       Br;-30,10 
+3f36de7e-d7cf-48dd-8fa5-c4292a6f7a50;26/12/2024;Cartão da Conta;Netflix Entretenimento   Barueri      Br;-59,90 
+4690f81b-3fef-46d4-9785-8dda734fd0a7;26/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-30,00 
+65ad2c26-4b80-4386-b840-5ee87ba6f60f;26/12/2024;QR Code Pix enviado;Padaria E Confeitaria Doce Arte;-10,20 
+38c9671b-e93d-48a9-a8a9-7063560667d8;27/12/2024;QR Code Pix enviado;Lilian Sampaio Silva;-34,98 
+026fa26b-4a8a-413e-9cc9-b5c11693b74b;27/12/2024;QR Code Pix enviado;Posto Lider;-50,00 
+05d0a759-12f7-41fd-b24e-723c9a543259;27/12/2024;Pix recebido;Ana Paula Oss Da Luz;100,00 
+7882778f-9b0c-4ca0-9b8b-493672a6965d;27/12/2024;Pix enviado;Jaine Franco Alves;-100,00 
+381705b8-97b5-435e-892f-7601731d6ccc;27/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-77,80 
+ca2abac8-ee5b-47e5-94b6-1a28647a5e62;27/12/2024;QR Code Pix enviado;Leilton Do Carmo Azevedo;-151,80 
+57be09ee-dbd8-4c71-8c98-0b65fb4f1220;27/12/2024;QR Code Pix enviado;Comercial Silva;-32,91 
+e3aa2aa2-00c2-4389-afde-f978d4e3ef8c;27/12/2024;QR Code Pix enviado;Jv Minimercado Ltda;-300,03 
+0d39017d-d186-4c54-9216-e6391c251e67;27/12/2024;Pix recebido;Ryan Bernardo Ferreira;100,00 
+4eeea88a-3ad6-4d09-9af0-e94c7d7ad95d;27/12/2024;Cartão da Conta;Google Telegram          Sao Paulo    Br;-96,99 
+795ed5a3-90d7-487d-8799-822c203a641d;27/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-26,92 
+dbc1682b-50a6-4ddf-bc79-8cdc19b8da89;27/12/2024;QR Code Pix enviado;R F R Nogueira;-21,44 
+c5a84a97-1bf2-4932-aa23-4678836284cd;27/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-25,50 
+77bbff55-4c26-48b8-8503-bbd1f47ff7d4;27/12/2024;QR Code Pix enviado;Lucas Rodrigues Silva;-17,60 
+c3356853-e389-48bb-aee2-e3b7bd44c568;27/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-15,43 
+3cb5d90f-f3c8-451f-88e5-414d5d4ad286;28/12/2024;Pix recebido;Artur Almeida Alves De Jesus;100,00 
+f26726b3-12c1-4772-80ff-fc644acadebe;28/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-108,00 
+dc05d7bd-8c74-4692-ae6b-222feed40f54;28/12/2024;Pix enviado;Jaine Franco Alves;-400,00 
+e570181b-e99f-4b07-bb41-27f22498c0a3;28/12/2024;Pix enviado;Adalton Nascimento De Souza;-60,00 
+066adfc0-7241-4155-82a9-cdc9f84c9523;28/12/2024;Pix enviado;Thalita Goncalves Da Silva;-200,00 
+9169f9da-2886-4ae0-ad89-369aed90279d;28/12/2024;Pix recebido;Rita De Cassia Oliveira Santos;2000,00 
+09a4b069-7064-4208-90e3-65a05a9e1fea;28/12/2024;Pix recebido;Edilson Pereira De Jesus;2720,00 
+df7350df-41c7-4899-8e28-9b0d04fe6be7;28/12/2024;Pix enviado;Jaine Franco Alves;-100,00 
+b4d95f24-e483-49a4-9b9e-3ecc2526afe8;28/12/2024;Vendas;Disponivel DEBITO VISA;165,94 
+9439d615-5a62-4814-99c1-60613ecf5332;28/12/2024;Pix recebido;Romeu Gazinelli Nt;1020,00 
+cefd6e31-6d1f-405a-854d-6d1287e516e0;28/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-6,00 
+c6fe8930-932c-40ab-ab0d-faa134139ce2;28/12/2024;Pix enviado;Elisangela Pereira Da Silva;-8,40 
+8a624a25-5411-4fef-bb46-8ad93f675d10;29/12/2024;Pix enviado;Luciano Segundo Guerra Silva;-50,00 
+2aaddce7-7162-4979-8562-e151114dec8b;29/12/2024;Pix enviado;Luciana Silva Bomfim;-60,00 
+7653df58-d29d-4a7f-884a-f83aee1e3834;29/12/2024;Cartão da Conta;Mercadolivre*smarthomestoosasco       Br;-189,49 
+e1b6ca6c-6328-4f3b-8aa4-3611f3bc901a;29/12/2024;QR Code Pix enviado;A Jose Bridi Supermercados Epp;-59,63 
+bc8b62d8-7a57-452f-bae3-574a369ec13e;29/12/2024;Recarga de celular;Vivo - (73) *****-5006;-20,00 
+ae55d700-822e-4ce7-a12a-b56b8046145f;29/12/2024;Pix enviado;Albertina De Castro;-500,00 
+0ba392e4-f953-4a7e-8c40-8758b1276087;29/12/2024;Vendas;Disponivel DEBITO VISA;97,61 
+a8227258-5f96-4b40-8806-98f7befb008e;29/12/2024;Pix recebido;Sergio Camilo Da Costa Silva;100,00 
+e855eb87-d23a-4b07-add1-0afc7282b703;29/12/2024;Pix recebido;Rodrigo Dos Santos Gomes;400,00 
+8a5fe9c0-5e63-4c13-ac01-393f3cfc2ef8;29/12/2024;Vendas;Disponivel DEBITO VISA;331,87 
+e30ad184-5562-41f7-9008-d572a8834148;29/12/2024;Pix recebido;Moniquele Roedel De Jesus;320,00 
+4990841e-f2af-4bb1-b6f0-40f3081cf2f3;30/12/2024;Pix recebido;Gladstone Soares Da Silva;440,00 
+6ad6a115-4baf-4213-a7b6-bbe6bbd24594;30/12/2024;Pix enviado;Ezequiel Simoes Macedo;-11,00 
+1b08ba75-9ea9-403d-ae56-6abe97dbe610;30/12/2024;Pix recebido;Vagno Geronimo Gomes;300,00 
+6601f85c-5222-4940-86a1-1ce0cfbf61a5;30/12/2024;Pix enviado;Jaine Franco Alves;-70,00 
+743aaad5-b43e-4b74-bae4-399a6c83844b;30/12/2024;Pix enviado;Jaine Franco Alves;-50,00 
+92103ac0-fbda-4caf-b70c-b102c6c1e3f6;30/12/2024;Pix recebido;Artur Almeida Alves De Jesus;200,00 
+ab4ba9a8-5de0-4d5a-8ab2-4efe4fb49a1a;30/12/2024;Pix recebido;Leandro Nascimento Dias;560,00 
+9b19f276-2a01-405b-ba62-6b467144c16a;30/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-59,97 
+134f8e17-dedf-4613-bdea-278748942bd5;30/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-16,80 
+c8a72cac-5133-498f-a5b0-0db7029e38d7;31/12/2024;Pix enviado;Luciana Silva Bomfim;-385,00 
+991eed4f-03c8-429d-a2d8-e813c56e91e4;31/12/2024;Pix enviado;Jaine Franco Alves;-30,00 
+0cf8018b-3d64-4099-b5fa-6d5dd0ac34d6;31/12/2024;Pix enviado;Adalton Nascimento De Souza;-100,00 
+6bb88abe-7fa7-47b7-8d12-296261c52c80;31/12/2024;Cartão da Conta;Mercadolivre*encantoenxovosasco       Br;-410,00 
+3db89d36-55d6-4c54-bce9-cdba815a7440;31/12/2024;Pix recebido;Rodrigo Dos Santos Gomes;300,00 
+b495ccce-1aac-43b8-af27-ef4cdf8070ad;31/12/2024;Pix enviado;Nestor Cardoso Rocha;-28,00 
+1e10cc01-15bd-417f-bb3e-b794e1376884;31/12/2024;Pix enviado;Jamille Franco Alves;-30,00 
+5a5166c8-085f-41eb-b6e3-0e865e0ae2b3;31/12/2024;Pagamento de conta;Aguia Branca;-73,25 
+1b83a66d-3dd4-41af-9c50-920afbba0efd;31/12/2024;Cartão da Conta;Netflix.com              Sao Paulo    Br;-44,90 
+648bb643-037a-460a-ac43-e78faf157679;31/12/2024;QR Code Pix enviado;Silvia Ferraz Lemos;-28,35 
+cc20885b-85b7-4131-b45d-d8d32e5657c3;31/12/2024;QR Code Pix enviado;Acacio De Souza Ramos;-17,74 
+caa6e6fe-d4bc-4733-b482-6fa739fc53d1;31/12/2024;QR Code Pix enviado;Edivaldo Pereira Brito;-9,80 
+a6a1d5a0-253e-4574-9f1f-142024881bd1;31/12/2024;QR Code Pix enviado;Andreia Paraguai Santos;-30,00 
+3f166819-e60e-4fab-bf1a-f0434e6c5917;31/12/2024;Pix enviado;Leandro Nascimento Dias;-280,00 
