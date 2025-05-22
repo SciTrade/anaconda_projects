@@ -113,32 +113,3 @@ def forecastsdados_insere (dfforecastsdados):
     # Fechar a conexão com o banco
     conn.close()
     return existsforecastsdados
-    
-
-
-def enviar_email(mensagens):
-    import requests
-    import smtplib
-    
-    import time
-    from email.mime.text import MIMEText
-    from email.mime.multipart import MIMEMultipart
-    
-    try:
-        msg = MIMEMultipart()
-        msg["From"] = EMAIL_REMETENTE
-        msg["To"] = ", ".join(EMAIL_DESTINATARIOS)
-        msg["Subject"] = "Confirmação de Forecasts"
-
-        texto_email = "\n".join(mensagens)
-        msg.attach(MIMEText(texto_email, "plain"))
-
-        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
-        server.starttls()
-        server.login(EMAIL_REMETENTE, SENHA_EMAIL)
-        server.sendmail(EMAIL_REMETENTE, EMAIL_DESTINATARIOS, msg.as_string())
-        server.quit()
-
-        print("E-mail enviado com sucesso!")
-    except Exception as e:
-        print(f"Erro ao enviar e-mail: {e}")
