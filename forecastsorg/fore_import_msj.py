@@ -1,5 +1,7 @@
+
 import sqlite3
 import pandas as pd
+
 mensagens = []
 conn = sqlite3.connect("sqforecasts.db") # Conectar ao banco de dados SQLite
 query = "SELECT id_titulos, symbol, url FROM tbtitulos" # Criar a consulta SQL
