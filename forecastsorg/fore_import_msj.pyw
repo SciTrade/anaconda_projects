@@ -27,7 +27,7 @@ def mostrar_mensagens(mensagens):
     messagebox.showinfo("Mensagens do Dia", "\n".join(mensagens))
     root.destroy()
 
-# Caminho do arquivo de cache (Windows)
+# Caminho do arquivo de cache (Windows) C:\Users\scitr\AppData\Local\Temp
 cache_file = os.path.join(os.environ['TEMP'], 'msg_diaria_cache.txt')
 hoje = datetime.now().strftime("%Y-%m-%d")
 
