@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import sqlite3
 
 def alpha_market_data_intra(function, symbol, interval, month, apikey):
     """
@@ -53,5 +54,175 @@ def alpha_market_data_intra(function, symbol, interval, month, apikey):
 
     return None  # Retorna None em caso de erro
 
+import sqlite3
+def get_or_insert_symbol(symbol):
+    """
+    Insere o symbol na tabela tbtitulos se não existir e retorna o id_titulos correspondente.
+
+    Parâmetros:
+    - symbol (str): Símbolo a ser verificado/inserido.
+
+    Retorna:
+    - id_titulos (int): ID correspondente ao símbolo inserido ou já existente.
+    """
+    try:
+        # Conectar ao banco de dados
+        conn = sqlite3.connect('sqtitulosalpha.db')
+        cursor = conn.cursor()
+
+        # Verificar se o símbolo já existe
+        cursor.execute("SELECT id_titulos FROM tbtitulos WHERE symbol = ?", (symbol,))
+        result = cursor.fetchone()
+
+        if result:
+            id_titulos = result[0]  # Retorna o ID já existente
+        else:
+            # Inserir o novo símbolo
+            cursor.execute("INSERT INTO tbtitulos (symbol) VALUES (?)", (symbol,))
+            conn.commit()
+
+            # Obter o ID do símbolo recém-inserido
+            id_titulos = cursor.lastrowid
+
+        # Fechar a conexão
+        conn.close()
+
+        return id_titulos
+
+    except sqlite3.Error as e:
+        print(f"Erro no banco de dados: {e}")
+        return None
 
 
+import sqlite3
+
+def get_or_insert_interval(interval):
+    """
+    Insere o intervalo intraiario na tabela tbintervalos se não existir e retorna o id_intervalos correspondente.
+
+    Parâmetros:
+    - interval (str): Intervalo a ser verificado/inserido.
+
+    Retorna:
+    - id_intervalos (int): ID correspondente ao intervalo inserido ou já existente.
+    """
+    try:
+        # Conectar ao banco de dados
+        conn = sqlite3.connect('sqtitulosalpha.db')
+        cursor = conn.cursor()
+
+        # Verificar se o intervalo já existe
+        cursor.execute("SELECT id_intervalos FROM tbintervalos WHERE intervalo = ?", (interval,))
+        result = cursor.fetchone()
+
+        if result:
+            id_intervalos = result[0]  # Retorna o ID já existente
+        else:
+            # Inserir o novo intervalo
+            cursor.execute("INSERT INTO tbintervalos (intervalo) VALUES (?)", (interval,))
+            conn.commit()
+
+            # Obter o ID do intervalo recém-inserido
+            id_intervalos = cursor.lastrowid
+
+        # Fechar a conexão
+        conn.close()
+
+        return id_intervalos
+
+    except sqlite3.Error as e:
+        print(f"Erro no banco de dados: {e}")
+        return None
+
+
+import sqlite3
+
+def get_or_insert_titulos_intervalos(id_titulos, id_intervalos):
+    """
+    Insere a combinação id_titulos e id_intervalos na tabela tbtitulosintervalos se não existir 
+    e retorna o id_titulosintervalos correspondente.
+
+    Parâmetros:
+    - id_titulos (int): ID do título.
+    - id_intervalos (int): ID do intervalo.
+
+    Retorna:
+    - id_titulosintervalos (int): ID correspondente ao registro inserido ou já existente.
+    """
+    try:
+        # Conectar ao banco de dados
+        conn = sqlite3.connect('sqtitulosalpha.db')
+        cursor = conn.cursor()
+
+        # Verificar se já existe um registro com esses valores
+        cursor.execute("""
+            SELECT id_titulosintervalos FROM tbtitulosintervalos 
+            WHERE id_titulos = ? AND id_intervalos = ?
+        """, (id_titulos, id_intervalos))
+        result = cursor.fetchone()
+
+        if result:
+            id_titulosintervalos = result[0]  # Retorna o ID já existente
+        else:
+            # Inserir novo registro
+            cursor.execute("""
+                INSERT INTO tbtitulosintervalos (id_titulos, id_intervalos) 
+                VALUES (?, ?)
+            """, (id_titulos, id_intervalos))
+            conn.commit()
+
+            # Obter o ID do novo registro inserido
+            id_titulosintervalos = cursor.lastrowid
+
+        # Fechar conexão
+        conn.close()
+
+        return id_titulosintervalos
+
+    except sqlite3.Error as e:
+        print(f"Erro no banco de dados: {e}")
+        return None
+
+
+import sqlite3
+
+def insert_titulos_prezos(id_titulosintervalos, df):
+    """
+    Insere registros do dataframe df na tabela tbtitulosprezos se não existirem.
+
+    Parâmetros:
+    - id_titulosintervalos (int): ID do título-intervalo.
+    - df (DataFrame): DataFrame contendo colunas datetime, open, high, low, close, volume.
+
+    Retorna:
+    - Quantidade de registros inseridos.
+    """
+    try:
+        # Conectar ao banco de dados
+        conn = sqlite3.connect('sqtitulosalpha.db')
+        cursor = conn.cursor()
+
+        # Iterar sobre o dataframe e inserir dados que não existam
+        inserted_count = 0
+        for _, row in df.iterrows():
+            cursor.execute("""
+                SELECT COUNT(*) FROM tbtitulosprezos 
+                WHERE id_titulosintervalos = ? AND datetime = ?
+            """, (id_titulosintervalos, row['datetime']))
+            exists = cursor.fetchone()[0]
+
+            if not exists:
+                cursor.execute("""
+                    INSERT INTO tbtitulosprezos (id_titulosintervalos, datetime, open, high, low, close, volume)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                """, (id_titulosintervalos, row['datetime'], row['open'], row['high'], row['low'], row['close'], row['volume']))
+                inserted_count += 1
+
+        conn.commit()
+        conn.close()
+
+        return inserted_count
+
+    except sqlite3.Error as e:
+        print(f"Erro no banco de dados: {e}")
+        return None

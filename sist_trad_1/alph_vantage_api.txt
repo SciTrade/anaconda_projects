@@ -1,3 +1,4 @@
 BSFBG5DHV3CCXVMV
+Max requests 25 per day
 
 https://www.alphavantage.co/documentation/#intraday
