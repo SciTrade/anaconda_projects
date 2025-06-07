@@ -70,7 +70,7 @@ def forecasthist_insere (dftituloshistins):
     cursor = conn.cursor()
     
     # Definir os valores
-    id_titulos = (dftituloshistins["id_titulos"].iloc[0]) 
+    id_titulos = (dftituloshistins["id_titulos"].iloc[0])
     data = (dftituloshistins["data"].iloc[0]) 
     valor = (dftituloshistins["valor"].iloc[0]) 
     
