@@ -1,0 +1,31 @@
+from django.urls import path
+import database_data.views as views
+
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("mep/", views.dolar_mep, name="dolar_mep"),
+    path("oficial/", views.dolar_oficial, name="dolar_oficial"),
+    path("blue/", views.dolar_blue, name="dolar_blue"),
+    path("blue-weekly/", views.dolar_blue_weekly, name="dolar_blue_weekly"),
+    path("blue-monthly/", views.dolar_blue_monthly, name="dolar_blue_monthly"),
+    path("riesgo-pais/", views.riesgo_pais, name="riesgo_pais"),
+    path("ipc-usa/", views.ipc_usa, name="ipc_usa"),
+    path("rem/ipc/", views.ipc_rem, name="ipc_rem"),
+    path("rem/ipc-index/", views.ipc_rem_index, name="ipc_rem_index"),
+    path("rem/tcnpm/", views.tcnpm_rem, name="tcnpm_rem"),
+    path("rem/tcnpm-index/", views.tcnpm_rem_index, name="tcnpm_rem_index"),
+    path("rem/blue/", views.blue_rem, name="blue_rem"),
+    path("rem/blue-index/", views.blue_rem_index, name="blue_rem_index"),
+    path("rem/pibpc/", views.pibpc_rem, name="pibpc_rem"),
+    path("forecast/commod/", views.commod_fcast, name="commod_fcast"),
+    path("forecast/dowj/", views.dowj_fcast, name="dowj_fcast"),
+    path("forecast/dxy/", views.dxy_fcast, name="dxy_fcast"),
+    path("forecast/eurusd/", views.eurusd_fcast, name="eurusd_fcast"),
+    path("forecast/fedfund/", views.fedfund_fcast, name="fedfund_fcast"),
+    path("forecast/gold/", views.gold_fcast, name="gold_fcast"),
+    path("forecast/inflation/", views.inflation_fcast, name="inflation_fcast"),
+    path("forecast/nasdaq/", views.nasdaq_fcast, name="nasdaq_fcast"),
+    path("forecast/oil/", views.oil_fcast, name="oil_fcast"),
+    path("forecast/stpoor/", views.stpoor_fcast, name="stpoor_fcast"),
+    path("forecast/us10y/", views.us10y_fcast, name="us10y_fcast"),
+]

@@ -1,0 +1,11 @@
+2022-09-22 17:16:30.199823
+Traceback (most recent call last):
+  File "c:\Users\gp\Desktop\Python\stochastic\alerta_trade\Alert.py", line 283, in send_mail
+    s.send_message(msg)
+  File "C:\Users\gp\anaconda3\lib\smtplib.py", line 986, in send_message
+    return self.sendmail(from_addr, to_addrs, flatmsg, mail_options,
+  File "C:\Users\gp\anaconda3\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {}
+
+

@@ -1,0 +1,25 @@
+,2022-10-03 13:30:00-04:00
+Open,7.849999904632568
+High,7.920000076293945
+Low,7.849999904632568
+Close,7.889999866485596
+Adj Close,7.889999866485596
+Volume,25527
+time,2022-10-03 17:30:00
+timeArg,2022-10-03 14:30:00-03:00
+khora,45.96659593579447
+dhora,39.60638188050761
+kdia,87.59422555831335
+ddia,69.99323351871743
+ksem,74.06317258754751
+dsem,50.08193438161568
+compra,True
+venta,False
+closeLong,False
+closeShort,False
+entradaLongH,True
+entradaShortH,False
+oper,COMPRA
+long,
+short,
+state,neutro

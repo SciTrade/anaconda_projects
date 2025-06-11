@@ -1,0 +1,25 @@
+,2022-12-21 11:30:00-05:00
+Open,8.69849967956543
+High,8.930000305175781
+Low,8.680000305175781
+Close,8.869999885559082
+Adj Close,8.869999885559082
+Volume,147519
+time,2022-12-21 16:30:00
+timeArg,2022-12-21 13:30:00-03:00
+khora,89.27899126024955
+dhora,89.2503455622804
+kdia,51.219426452147296
+ddia,41.25813962855897
+ksem,44.75414109800853
+dsem,32.42956752293771
+compra,True
+venta,False
+closeLong,False
+closeShort,False
+entradaLongH,True
+entradaShortH,False
+oper,COMPRA
+long,
+short,
+state,neutro

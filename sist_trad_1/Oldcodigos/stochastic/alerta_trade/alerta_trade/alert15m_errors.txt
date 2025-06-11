@@ -1,0 +1,13 @@
+2022-12-02 16:19:08.681163
+Traceback (most recent call last):
+  File "C:\Users\gp\Desktop\Python\stochastic\alerta_trade\alert_15m.py", line 30, in run_test
+    lastTime = df.iloc[-1].time
+  File "C:\Users\gp\anaconda3\lib\site-packages\pandas\core\indexing.py", line 931, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\gp\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1566, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\gp\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+

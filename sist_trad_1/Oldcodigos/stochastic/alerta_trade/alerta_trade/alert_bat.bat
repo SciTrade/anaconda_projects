@@ -1,0 +1,1 @@
+conda activate base && "C:\Users\gp\anaconda3\python.exe" "C:\Users\gp\Desktop\Python\stochastic\alerta_trade\alert_1h.py"
