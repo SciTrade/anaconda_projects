@@ -1,3 +1,5 @@
+#alert_1h.py 
+
 from datetime import date, datetime
 import pandas as pd
 import yfinance as yf
@@ -29,7 +31,8 @@ def check_missing_alerts(df):
                 print("Current state: ", last.state)
                 lastOperCompra = df[df['oper'] == 'COMPRA'].iloc[-1]
                 lastOperVenta = df[df['oper'] == 'VENTA'].iloc[-1]
-                missingAlert = lastOperCompra if lastOperCompra.time > lastOperVenta.time else lastOperVenta
+                missingAlert = lastOperCompra if lastOperCompra.time > lastOperVenta.time 
+            else lastOperVenta
                 alert.set_alert_mail(missingAlert, '1h')
                 missingAlert.to_csv(LASTALERT_PATH)
         elif lastAlert.oper[0] == 'COMPRA' or lastAlert.oper[0] == 'VENTA':
@@ -39,7 +42,8 @@ def check_missing_alerts(df):
                 print("Current state: ", last.state)
                 lastOperCloseLong = df[df['oper'] == 'CLOSELONG'].iloc[-1]
                 lastOperCloseShort = df[df['oper'] == 'CLOSESHORT'].iloc[-1]
-                missingAlert = lastOperCloseLong if lastOperCloseLong.time > lastOperCloseShort.time else lastOperCloseShort
+                missingAlert = lastOperCloseLong if lastOperCloseLong.time > lastOperCloseShort.time 
+            else lastOperCloseShort
                 alert.set_alert_mail(missingAlert, '1h')
                 missingAlert.to_csv(LASTALERT_PATH)
     except Exception as e:
@@ -103,7 +107,7 @@ def main():
             print("Estado: ", last.state.upper())
             # Get status excel
             odate = last.time.strftime("%d-%m-%Y_%H%M%S")
-            alert.get_excel(df, f"C:\\Users\\gp\\Desktop\\Python\\stochastic\\alerta_trade\\status\\status_1h_{ odate }.xlsx")
+            alert.get_excel(df,f"C:\\Users\\gp\\Desktop\\Python\\stochastic\\alerta_trade\\status\\status_1h_{ odate }.xlsx")
 
             time.sleep(frec)    
             

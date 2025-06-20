@@ -1,0 +1,80 @@
+┌──────────────────────────────┐
+│           Alert              │
+├──────────────────────────────┤
+│ + ERRORFILE_PATH : str       │
+│ + K, D, SMTH, DAYM, SEMM: int│
+│ + per : str                  │
+│ + symbol : str               │
+├──────────────────────────────┤
+│ + __init__(per, symbol)      │
+│ + get_excel(df, ofile)       │  
+│ + stochastic(...)            │
+│ + set_signals(df)            │
+│ + set_compra(df, i)          │
+│ + set_venta(df, i)           │
+│ + close_long(...)            │
+│ + close_short(...)           │
+│ + set_test(df, period)       │
+│ + handle_error(e, ofile)     │
+│ + get_alert_oper(oper)       │
+│ + set_status_mail(...)       │
+│ + set_alert_mail(...)        │
+│ + send_mail(msg, alert)      │
+│ + was_lastAlert_sent(...)    │
+│ + read_alert_csv(file)       │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│         alert_1h.py          │
+├──────────────────────────────┤
+│ + alert : Alert              │
+│ + check_missing_alerts(df)   │
+│ + notify(df)                 │
+│ + main()                     │
+└──────────────────────────────┘
+
+[Início do script]
+        ↓
+[main()]
+        ↓
+[Baixa dados com yfinance]
+        ↓
+[alert.set_test(df, "1h")]
+        ↓
+[Calcula estocástico + sinais]
+        ↓
+[check_missing_alerts(df)]
+        ↓
+[notify(df)]
+        ↓
+┌────────────────────────────┐
+│ Se há nova operação:       │
+│   → Envia alerta por e-mail│
+│   → Salva CSV do alerta    │
+│ Senão:                     │
+│   → Envia status por e-mail│
+└────────────────────────────┘
+        ↓
+[Exporta Excel com status]
+        ↓
+[Espera e repete o ciclo]
+
+
+alert_1h.py
+│
+├── check_missing_alerts()
+│   ├── Alert.read_alert_csv()
+│   └── Alert.set_alert_mail()
+│
+├── notify()
+│   ├── check_missing_alerts()
+│   ├── Alert.was_lastAlert_sent()
+│   ├── Alert.set_alert_mail()
+│   └── Alert.set_status_mail()
+│
+└── main()
+    ├── Alert.set_test()
+    ├── check_missing_alerts()
+    ├── notify()
+    ├── Alert.get_excel()
+    └── Alert.handle_error()

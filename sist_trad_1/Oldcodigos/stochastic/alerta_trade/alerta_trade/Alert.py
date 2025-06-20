@@ -1,3 +1,4 @@
+#Alert.py part 1
 from datetime import datetime, timedelta
 from email.message import EmailMessage
 import os
@@ -82,7 +83,7 @@ class Alert():
                 self.SEMM = 7
     
 
-# Df to excel function
+# Df  to excel function 
     def get_excel(self, df, ofile):
         df.timeArg = df.timeArg.dt.tz_convert(None)
 
@@ -96,7 +97,7 @@ class Alert():
         print("Excel file created")
 
 
-# Stochastic calculation
+# Stochastic calculation 
     def stochastic(self, df, i, K, D, smoth):
             
         df["k"] = (100. * (df.Close - df.Low.rolling(K).min()) /
@@ -131,7 +132,7 @@ class Alert():
             df.loc[i, "short"] = (venta - compra) / venta
 
 
-# Set signals
+# Set signals . calcula estado para cada stocastico e define a senhal de compra , venta ou neutro usando a estrategía 2
     def set_signals(self, df):
         state = ""
         df["compra"] = False
@@ -147,7 +148,7 @@ class Alert():
 
         compra = 0.
         venta = 0.
-
+#alert.py part 2
         if(self.per == "15m"):
             for i in df.index:
                 l = df.loc[i]
@@ -187,7 +188,7 @@ class Alert():
                         state = "venta"
                         venta = l.Close
                         self.set_venta(df, i)
-
+# outros intervalos
         else:
             lastEntradaLongH = False
             lastEntradaShortH = False
@@ -297,7 +298,7 @@ class Alert():
         Estado estocastico {period}/{self.symbol}
         {last.timeArg  + timedelta(minutes=15)}
         Close: { round(last.Close, 2) }
-
+#alert.py part 3
         Estado: { last.state.upper() }
 
         Sistema: [{self.K}-{self.D}-{self.SMTH}-{self.DAYM}-{self.SEMM}]
@@ -425,7 +426,7 @@ class Alert():
 
 
 # Read alert csv
-    def read_alert_csv(self, file):
+    def read_alert_csv(self, file): 
         lastAlert = pd.read_csv(file, delimiter=',', decimal='.')
         lastAlert = lastAlert.transpose()
         lastAlert.columns = lastAlert.iloc[0]
