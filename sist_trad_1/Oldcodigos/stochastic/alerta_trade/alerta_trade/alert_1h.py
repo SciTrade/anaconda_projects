@@ -18,10 +18,10 @@ alert = Alert('1h')
 
 def check_missing_alerts(df):
     try:
-        last = df.iloc[-1]
+        last = df.iloc[-1]                                                    #ultimo registro de df_pre
 
         # Read last alert csv
-        lastAlert = alert.read_alert_csv(LASTALERT_PATH)
+        lastAlert = alert.read_alert_csv(LASTALERT_PATH)                      # registro escrito no csv
 
         # Compare states
         if lastAlert.oper[0] == 'CLOSELONG' or lastAlert.oper[0] == 'CLOSESHORT':
@@ -35,11 +35,11 @@ def check_missing_alerts(df):
             else lastOperVenta
                 alert.set_alert_mail(missingAlert, '1h')
                 missingAlert.to_csv(LASTALERT_PATH)
-        elif lastAlert.oper[0] == 'COMPRA' or lastAlert.oper[0] == 'VENTA':
-            lastState = lastAlert.oper[0].lower()
-            if(lastState != last.state):  
-                print("Previous state: ", lastState)
-                print("Current state: ", last.state)
+        elif lastAlert.oper[0] == 'COMPRA' or lastAlert.oper[0] == 'VENTA':   #COMPRA
+            lastState = lastAlert.oper[0].lower()                             #compra
+            if(lastState != last.state):                                      #neutro
+                print("Previous state: ", lastState)                          # Pevious state: compra
+                print("Current state: ", last.state)                          # Current state: neutro
                 lastOperCloseLong = df[df['oper'] == 'CLOSELONG'].iloc[-1]
                 lastOperCloseShort = df[df['oper'] == 'CLOSESHORT'].iloc[-1]
                 missingAlert = lastOperCloseLong if lastOperCloseLong.time > lastOperCloseShort.time 
