@@ -1,0 +1,11 @@
+Stch_1H_1 :
+
+Cruce de tres estocasticos com frequencias distintas com frecuencia min de uma hora
+Toma de decição com frequencia media sob frequencia baixa em tendencía e com fequencia alta confirmando.
+Entramos long, salimos , stand by hasta condições de short, entramos en short , salimos de short, stand by
+Long signals : 
+                COMPRA 
+                CLOSELONG
+Short signals : 
+                VENTA
+                CLOSESHORT

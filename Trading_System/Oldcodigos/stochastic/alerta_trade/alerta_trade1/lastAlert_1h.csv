@@ -1,0 +1,25 @@
+,2022-09-20 15:30:00-04:00
+Open,9.119999885559082
+High,9.154999732971191
+Low,9.109999656677246
+Close,9.119999885559082
+Adj Close,9.119999885559082
+Volume,51388
+time,2022-09-20 19:30:00+00:00
+timeArg,2022-09-20 16:30:00-03:00
+khora,79.02057370229774
+dhora,81.64455187777898
+kdia,69.67210167005412
+ddia,74.21447875077216
+ksem,50.55347856105217
+dsem,59.571944383580195
+compra,False
+venta,True
+closeLong,False
+closeShort,False
+entradaLongH,False
+entradaShortH,True
+oper,VENTA
+long,
+short,
+state,neutro

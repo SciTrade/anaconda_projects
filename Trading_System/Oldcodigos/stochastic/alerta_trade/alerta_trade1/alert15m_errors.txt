@@ -1,0 +1,20 @@
+2022-09-29 10:50:04.950097
+Traceback (most recent call last):
+  File "C:\Users\gp\Desktop\Python\stochastic\alerta_trade\alert_15m.py", line 31, in run_test
+    with open(LASTCHECK_PATH, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\gp\\Desktop\\Python\\stochastic\\alerta_trade\\lastCheckedTime.txt'
+
+
+2022-09-30 11:25:04.663252
+Traceback (most recent call last):
+  File "C:\Users\gp\Desktop\Python\stochastic\alerta_trade\alert_15m.py", line 66, in notify_status
+    alert.set_status_mail(df.iloc[-1], '15m')
+  File "C:\Users\gp\anaconda3\lib\site-packages\pandas\core\indexing.py", line 931, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\gp\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1566, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\gp\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+
