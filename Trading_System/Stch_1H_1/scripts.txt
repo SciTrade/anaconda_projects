@@ -1,0 +1,30 @@
+df["longselllow"] = 0
+    df["longsellmed"] = 0
+    df["longsellhigh"] = 0
+
+
+
+
+
+
+
+# Short buy stoch criterias
+        
+        if df.loc[i,"klow"] < 80 and  df.loc[i,"klow"] < df.loc[i,"dlow"] :
+            df.loc[i, "longselllow"] = 1
+        else :
+            df.loc[i, "longselllow"] = 0
+            
+            
+        if df.loc[i,"kmed"] < 80 and df.loc[i,"kmed"] < df.loc[i,"dmed"] :
+            df.loc[i, "longsellmed"] = 1
+        else :
+            df.loc[i, "longsellmed"] = 0
+            
+    
+        if df.loc[i,"khigh"] < 80 and df.loc[i,"khigh"] < df.loc[i,"dhigh"] :
+            df.loc[i, "longsellhigh"] = 1
+        else :
+            df.loc[i, "longsellhigh"] = 0
+
+or df.loc[i-1, "state"] == "staylong")
