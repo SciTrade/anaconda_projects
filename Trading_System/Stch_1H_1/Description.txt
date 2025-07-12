@@ -9,3 +9,7 @@ Long signals :
 Short signals : 
                 VENTA
                 CLOSESHORT
+
+
+
+

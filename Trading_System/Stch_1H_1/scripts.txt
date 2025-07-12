@@ -28,3 +28,26 @@ df["longselllow"] = 0
             df.loc[i, "longsellhigh"] = 0
 
 or df.loc[i-1, "state"] == "staylong")
+
+
+
+
+
+# long buy  stochs criterias
+        
+        if df.loc[i,"klow"] > 20 and df.loc[i,"klow"] > df.loc[i,"dlow"] :
+            df.loc[i, "longbuylow"] = 1
+        else :
+            df.loc[i, "longbuylow"] = 0
+            
+            
+        if df.loc[i,"kmed"] > 20 and df.loc[i,"kmed"] > df.loc[i,"dmed"] :
+            df.loc[i, "longbuymed"] = 1
+        else :
+            df.loc[i, "longbuymed"] = 0
+            
+    
+        if df.loc[i,"khigh"] > 20 and df.loc[i,"khigh"] > df.loc[i,"dhigh"] :
+            df.loc[i, "longbuyhigh"] = 1
+        else :
+            df.loc[i, "longbuyhigh"] = 0
