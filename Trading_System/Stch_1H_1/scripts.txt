@@ -51,3 +51,38 @@ or df.loc[i-1, "state"] == "staylong")
             df.loc[i, "longbuyhigh"] = 1
         else :
             df.loc[i, "longbuyhigh"] = 0
+
+
+def calcular_metricas(df):
+    # Filtrar operações de entrada e saída
+    entradas = df[df["state"] == "buylong"].reset_index(drop=True)
+    saidas = df[df["state"] == "selllong"].reset_index(drop=True)
+
+    # Garantir pares válidos
+    num_trades = min(len(entradas), len(saidas))
+    entradas = entradas.head(num_trades)
+    saidas = saidas.head(num_trades)
+
+    # Calcular lucro por operação
+    lucro_operacoes = saidas["close"].values - entradas["close"].values
+
+    # Métricas principais
+    lucro_total = np.sum(lucro_operacoes)
+    num_vencedoras = np.sum(lucro_operacoes > 0)
+    num_perdedoras = np.sum(lucro_operacoes <= 0)
+    win_rate = num_vencedoras / num_trades if num_trades > 0 else 0
+    profit_factor = np.sum(lucro_operacoes[lucro_operacoes > 0]) / abs(np.sum(lucro_operacoes[lucro_operacoes < 0])) if np.sum(lucro_operacoes[lucro_operacoes < 0]) != 0 else np.inf
+    max_drawdown = np.min(np.cumsum(lucro_operacoes) - np.maximum.accumulate(np.cumsum(lucro_operacoes)))
+
+    # Resultados como dicionário
+    resultados = {
+        "Trades Executados": num_trades,
+        "Lucro Total": round(lucro_total, 4),
+        "Win Rate (%)": round(win_rate * 100, 2),
+        "Profit Factor": round(profit_factor, 2),
+        "Maior Drawdown": round(max_drawdown, 4),
+        "Operações Vencedoras": int(num_vencedoras),
+        "Operações Perdedoras": int(num_perdedoras)
+    }
+
+    return pd.Series(resultados)
