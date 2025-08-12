@@ -86,3 +86,25 @@ def calcular_metricas(df):
     }
 
     return pd.Series(resultados)
+
+
+
+
+def stopsys_estat(dfstopsys, lsmetricas):
+    df = dfstopsys.copy()
+    df['datetime'] = pd.to_datetime(df['datetime'])
+    df = df.sort_values('datetime').reset_index(drop=True)
+
+    index_values = df['index'].dropna()
+
+    estatisticas = {
+        'stopsysfirst': round(index_values.iloc[0], 6),
+        'stopsysquant': index_values.count(),
+        'stopsysmedia': round(index_values.mean(), 6),
+        'stopsysmaximo': round(index_values.max(), 6),
+        'stopsysminimo': round(index_values.min(), 6),
+        'stopsystd': round(index_values.std(), 6)
+    }
+    sestopsysestats = pd.Series(estatisticas)
+    lsmetricas.append(sestopsysestats)
+    return sestopsysestats, lsmetricas
