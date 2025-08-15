@@ -108,3 +108,41 @@ def stopsys_estat(dfstopsys, lsmetricas):
     sestopsysestats = pd.Series(estatisticas)
     lsmetricas.append(sestopsysestats)
     return sestopsysestats, lsmetricas
+
+
+def system_signals (dfcriterias):
+    #Columns:datetime,open,high,low,close,volume, khigh,dhigh,kmed,dmed,klow,dlow,longbuylow,longbuymed,longbuyhigh
+    df = dfcriterias
+    n = len(df)
+    state_array = np.full(n, "standby", dtype=object)  # inicializa com "standby"
+    estado_anterior = "standby"
+
+    high = df["longbuyhigh"].to_numpy()
+    med = df["longbuymed"].to_numpy()
+    low = df["longbuylow"].to_numpy()
+
+    for i in range(1, n):
+        if high[i] == 1 and med[i] == 1 and low[i] == 1 and estado_anterior == "standby":
+            state_array[i] = "enter"            
+            estado_anterior = "enter"
+        elif med[i] == 1 and low[i] == 1 and estado_anterior in ["enter", "stay"]:
+            state_array[i] = "stay"
+            estado_anterior = "stay"
+        elif high[i] == 1 and low[i] == 1 and med[i] == 0 and estado_anterior in ["enter", "stay"]:
+            state_array[i] = "stay"
+            estado_anterior = "stay"
+        elif low[i] == 0 and estado_anterior in ["enter", "stay"]:
+            state_array[i] = "out"
+            estado_anterior = "out"
+        elif high[i] == 0 and med[i] == 0 and estado_anterior in ["enter", "stay"]:
+            state_array[i] = "out"
+            estado_anterior = "out"
+        elif (low[i] == 0 or med[i] == 0) and estado_anterior == "out":
+            state_array[i] = "standby"
+            estado_anterior = "standby"
+        else:
+            state_array[i] = estado_anterior
+
+    df["state"] = state_array
+    dfsignals = df.drop(columns=[ "khigh","dhigh","kmed" ,"dmed","klow","dlow","longbuylow","longbuymed","longbuyhigh"])
+    return dfsignals   #Columns: datetime,open,high,low,close,volume,state
