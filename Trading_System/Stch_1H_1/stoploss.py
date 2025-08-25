@@ -1,5 +1,5 @@
- #stop_loss_reentry
 
+#stop_loss_reentry
 
 def stop_loss_reentry (dfsignals, stpl) :                 #Columns: datetime,open,high,low,close,volume,state
     import pandas as pd
@@ -48,3 +48,40 @@ def stop_loss_reentry (dfsignals, stpl) :                 #Columns: datetime,ope
     dfsignals = df[~cond].reset_index(drop=True)
     
     return dfsignals , dfstoploss  #Columns: datetime,open,high,low,close,volume,state
+
+
+# Stop drawdown Calculation , "stopsys" asignation into state column
+
+def stop_drawdown_simple (dfindex, drawmax): #dfindex columns: datetime, open,high,low,close,volume,state,index_sc,trade,index
+    import pandas as pd
+    df = dfindex
+    df = df.copy()
+    df["datetime"] = pd.to_datetime(df["datetime"])
+    df["index"] = pd.to_numeric(df["index"], errors="coerce")
+
+    estado_corrigido = []
+    pico_atual = df.loc[0, "index"]
+
+    for i in range(len(df)):
+        valor_index = df.loc[i, "index"]
+        estado = df.loc[i, "state"]
+
+        # Atualiza pico se houve recuperação
+        if valor_index > pico_atual:
+            pico_atual = valor_index
+
+        # Calcula drawdown
+        if pico_atual > 0:
+            drawdown = (valor_index - pico_atual) / pico_atual
+        else:
+            drawdown = 0
+
+        # Verifica se deve aplicar stopsys
+        if estado == "out" and drawdown < (- drawmax):
+            estado = "stopsys"
+            pico_atual = valor_index  # reinicia ciclo a partir desse ponto
+
+        estado_corrigido.append(estado)
+    df["state"] = estado_corrigido
+    dfindexdrawdown = df
+    return dfindexdrawdown
