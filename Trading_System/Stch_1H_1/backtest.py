@@ -234,4 +234,65 @@ def processar_parametros_simple (dfparamtest, dftitulosdados, srbacktest, dfmetr
                       
 
 
+                                 # loop de processamento de parametros verção  multinúcleo
 
+def processar_parametros_multinucleo(dfparamtest, dftitulosdados, srbacktest):
+    
+    from concurrent.futures import ThreadPoolExecutor
+    import traceback  
+
+    dfmetricas = None
+
+    def processar_parametros(args):
+        from Stoch_HighMedLow_Long import Stoch_HighMedLow_Long
+        from stoploss import stop_loss_reentry , stop_drawdown_simple
+        from index import index_calculation
+        from metrics import tir_total_anualizada , tir_anuais_df, tir_anuais_estats, trades_estats, drawdowns_df, drawdowns_estats, dias_out_df, dias_out_estats, stop_drawdown_df, stop_drawdown_estats 
+
+        
+        il, linha, dftitulosdados, dataini, datafim = args
+        try:
+            K, D, smoth, medM, lowM, stpl, comission, drawmax, lsmetricas = parametros(dfparamtest, il)
+
+            dfsignals = Stoch_HighMedLow_Long(dftitulosdados, K, D, smoth, medM, lowM)
+            dfsignals, dfstoploss = stop_loss_reentry(dfsignals, stpl)
+            dfindex = index_calculation(dfsignals, comission)
+            dfindexdrawdown = stop_drawdown_simple(dfindex, drawmax)
+
+            dfinputmetricas = dfindex[['datetime', 'state', 'index_sc', 'index', 'trade']]
+            setirtotalanual, lsmetricas = tir_total_anualizada(dfinputmetricas, lsmetricas)
+            dftiranual = tir_anuais_df(dfinputmetricas, dataini, datafim)
+            setiranuaisestats, lsmetricas = tir_anuais_estats(dftiranual, lsmetricas)
+            setradesestats, lsmetricas = trades_estats(dfinputmetricas, lsmetricas)
+            dfdrawdowns = drawdowns_df(dfinputmetricas)
+            sedrawdownsestats, lsmetricas = drawdowns_estats(dfdrawdowns, lsmetricas)
+            dfdiasout = dias_out_df(dfinputmetricas)
+            sediasoutestats, lsmetricas = dias_out_estats(dfdiasout, lsmetricas)
+            dfstopdrawdown = stop_drawdown_df(dfindexdrawdown)
+            sestopdrawdownestats, lsmetricas = stop_drawdown_estats(dfstopdrawdown, lsmetricas)
+
+            return lsmetricas
+
+        except Exception as e:
+            print(f"⚠️ Erro ao processar índice {il}: {e}")
+            traceback.print_exc()
+            return None
+
+    # Prepara os argumentos para cada linha
+    args_list = [
+        (il, dfparamtest.iloc[il], dftitulosdados, srbacktest['dataini'], srbacktest['datafim'])
+        for il in dfparamtest.index
+    ]
+
+    # Executa em paralelo
+    resultados = []
+    with ThreadPoolExecutor() as executor:
+        for resultado in executor.map(processar_parametros, args_list):
+            if resultado is not None:
+                resultados.append(resultado)
+
+    # Atualiza dfmetricas com os resultados válidos
+    for lsmetricas in resultados:
+        dfmetricas = atualizar_df_metricas(dfmetricas, lsmetricas)
+
+    return dfmetricas
