@@ -263,52 +263,65 @@ def drawdowns_estats(dfdrawdowns , lsmetricas):
 #Dias Out Metrics
 
 # Dataframe calculation
-def dias_out_df (dfmetricas):    
-    df = dfmetricas
-    coluna="index_sc"
-    df["datetime"] = pd.to_datetime(df["datetime"])
-    df = df[df[coluna].notna()].reset_index(drop=True)
+def dias_out_df(dfmetricas):
+    df = dfmetricas.copy()
+    coluna = "index_sc"
 
+    # Converter e filtrar linhas sem valor em index_sc ou datetime inválido
+    df["datetime"] = pd.to_datetime(df["datetime"], errors="coerce")
+    df = df[df[coluna].notna() & df["datetime"].notna()].reset_index(drop=True)
+
+    # Identificar grupos estáticos
     variacao = df[coluna].diff()
     grupos = (variacao != 0).cumsum()
+    periodos = []
 
-    agrupado = df.groupby(grupos)
-    periodos_estaticos = []
-
-    for _, grupo in agrupado:
+    for _, grupo in df.groupby(grupos):
         if len(grupo) > 1 and grupo[coluna].nunique() == 1:
-            duracao_dias = (grupo["datetime"].iloc[-1] - grupo["datetime"].iloc[0]).days
-            periodos_estaticos.append({                
+            dias = (grupo["datetime"].iloc[-1] - grupo["datetime"].iloc[0]).days
+            periodos.append({
                 "Data Início": grupo["datetime"].iloc[0],
-                "Data Fim": grupo["datetime"].iloc[-1],
-                "difdias": duracao_dias,
+                "Data Fim":   grupo["datetime"].iloc[-1],
+                "difdias":    dias,
                 "Valor index": grupo[coluna].iloc[0]
             })
 
-    dfdiasout = pd.DataFrame(periodos_estaticos)
-    dfdiasout = dfdiasout.query("difdias != 0").copy()
-    dfdiasout = dfdiasout.reset_index(drop=True)
-    
+    dfdiasout = pd.DataFrame(periodos)
+
+    # Se não houver a coluna difdias ou ela estiver vazia, retorne vazio
+    if "difdias" not in dfdiasout.columns or dfdiasout.empty:
+        return pd.DataFrame(columns=["Data Início", "Data Fim", "difdias", "Valor index"])
+
+    # Filtragem direta sem query
+    dfdiasout = dfdiasout[dfdiasout["difdias"] != 0].reset_index(drop=True)
     return dfdiasout
-    
 
 
-# Diasout statistic calculation and lsmetricas agregation
-def dias_out_estats(dfdiasout, lsmetricas) :
-    dias = dfdiasout['difdias'].dropna()  # Remove valores nulos, se houver
+def dias_out_estats(dfdiasout, lsmetricas):
+    # Se estiver vazio, retorna Series zerada ou NaNs
+    if dfdiasout.empty:
+        estat = {
+            'diasoutfirst': None,
+            'diasouttot':   0,
+            'diasoutmedia': None,
+            'diasoutmax':   None,
+            'diasoutmin':   None,
+            'diasoutstd':   None
+        }
+    else:
+        dias = dfdiasout["difdias"]
+        estat = {
+            'diasoutfirst': round(dias.iloc[0], 6),
+            'diasouttot':   dias.sum(),
+            'diasoutmedia': round(dias.mean(), 2),
+            'diasoutmax':   dias.max(),
+            'diasoutmin':   dias.min(),
+            'diasoutstd':   round(dias.std(), 2)
+        }
 
-    estatisticas = {
-        'diasoutfirst': round(dias.iloc[0], 6),
-        'diasouttot': dias.sum(),
-        'diasoutmedia': round(dias.mean(), 2),
-        'diasoutmax': dias.max(),
-        'diasoutmin': dias.min(),
-        'diasoutstd': round(dias.std(), 2)
-    }
-    sediasoutestats = pd.Series(estatisticas)
-    lsmetricas.append(sediasoutestats)    
-    return sediasoutestats, lsmetricas
-
+    series_estat = pd.Series(estat)
+    lsmetricas.append(series_estat)
+    return series_estat, lsmetricas
 
 
 #Metrica StopSys

@@ -1,11 +1,14 @@
 
 
-
+from datetime import date, datetime
 import sqlite3
 import pandas as pd
 
             #conecta ao banco sqTradeSys  e exetrae os parametros gerales do back test da vista vwbacktest 
-def backtest_parameters (id_backtest) :   
+
+def backtest_parameters (id_backtest) : 
+    import sqlite3
+    import pandas as pd
     
     # Conecta ao banco de dados
     con = sqlite3.connect('sqTradeSys.db')  # ou o caminho correto do seu arquivo .sqlite
@@ -296,3 +299,58 @@ def processar_parametros_multinucleo(dfparamtest, dftitulosdados, srbacktest):
         dfmetricas = atualizar_df_metricas(dfmetricas, lsmetricas)
 
     return dfmetricas
+
+
+
+#Almacena os dados de dfmetricas no BD sqTradeSys
+
+import sqlite3
+def dfmetricas_a_sqTadeSys (df, nome_banco, nome_tabela):
+    conn = sqlite3.connect(nome_banco)
+    cursor = conn.cursor()
+
+    # Verifica se a tabela existe
+    cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name='{nome_tabela}'")
+    tabela_existe = cursor.fetchone() is not None
+
+    # Se existir, verifica os id_backtest já presentes
+    ids_existentes = set()
+    if tabela_existe:
+        try:
+            cursor.execute(f"SELECT DISTINCT id_backtest FROM {nome_tabela}")
+            ids_existentes = {linha[0] for linha in cursor.fetchall()}
+        except sqlite3.OperationalError:
+            pass  # Coluna ainda não existe
+
+    # Filtra o DataFrame para excluir registros já existentes
+    df_filtrado = df[~df['id_backtest'].isin(ids_existentes)]
+
+    if df_filtrado.empty:
+        print("⚠️ Nenhum novo registro para inserir. Todos os id_backtest já existem.")
+        conn.close()
+        return
+
+    # Verifica e adiciona colunas faltantes
+    if tabela_existe:
+        cursor.execute(f"PRAGMA table_info({nome_tabela})")
+        colunas_existentes = [linha[1] for linha in cursor.fetchall()]
+
+        for coluna in df_filtrado.columns:
+            if coluna not in colunas_existentes:
+                tipo = "TEXT"
+                if df_filtrado[coluna].dtype == "int64":
+                    tipo = "INTEGER"
+                elif df_filtrado[coluna].dtype == "float64":
+                    tipo = "REAL"
+                cursor.execute(f"ALTER TABLE {nome_tabela} ADD COLUMN {coluna} {tipo}")
+    else:
+        # Cria a tabela com todas as colunas
+        df_filtrado.head(0).to_sql(nome_tabela, conn, if_exists='replace', index=False)
+
+    # Insere os dados filtrados
+    df_filtrado.to_sql(nome_tabela, conn, if_exists='append', index=False)
+
+    conn.commit()
+    conn.close()
+    print(f"✅ {len(df_filtrado)} novos registros inseridos na tabela '{nome_tabela}'.")
+
